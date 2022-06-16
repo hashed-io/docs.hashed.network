@@ -1,0 +1,25 @@
+{
+  "unversionedId": "purpose",
+  "id": "purpose",
+  "title": "Purpose",
+  "description": "Hashed Network is a hub for digitally-native organizations and blockchain-powered products and services for those organizations.",
+  "source": "@site/docs/purpose.md",
+  "sourceDirName": ".",
+  "slug": "/purpose",
+  "permalink": "/docs/purpose",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Purpose"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Tokenomics",
+    "permalink": "/docs/tokenomics"
+  }
+}
