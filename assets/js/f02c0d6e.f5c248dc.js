@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhashed_network_docs=self.webpackChunkhashed_network_docs||[]).push([[707],{3422:function(s){s.exports=JSON.parse('{"label":"Tokenomics","permalink":"/docs/tags/tokenomics","allTagsPath":"/docs/tags","count":1,"items":[{"id":"tokenomics","title":"Tokenomics","description":"Here\'s info about tokenomics","permalink":"/docs/tokenomics"}]}')}}]);
