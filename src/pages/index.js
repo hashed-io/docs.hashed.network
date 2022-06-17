@@ -30,8 +30,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Hashed Network Docs`}
+      description="Hashed Netwok is Polkadot's hub for businesses looking to leverage web3 and digitally-native organizations">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
