@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://docs.hashed.network/blog</id>
+    <id>https://docs.hashed.network/docs.hashed.network/blog</id>
     <title>Hashed Network Documentation Blog</title>
     <updated>2022-06-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://docs.hashed.network/blog"/>
+    <link rel="alternate" href="https://docs.hashed.network/docs.hashed.network/blog"/>
     <subtitle>Hashed Network Documentation Blog</subtitle>
-    <icon>https://docs.hashed.network/img/favicon.ico</icon>
+    <icon>https://docs.hashed.network/docs.hashed.network/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Luhn Brand Launch]]></title>
         <id>luhn-brand</id>
-        <link href="https://docs.hashed.network/blog/luhn-brand"/>
+        <link href="https://docs.hashed.network/docs.hashed.network/blog/luhn-brand"/>
         <updated>2022-06-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Luhn Brand is cool.. blah blah]]></summary>
-        <content type="html"><![CDATA[<p>Luhn Brand is cool.. blah blah</p><p><img loading="lazy" alt="Luhn Brand" src="/assets/images/luhn-brand-7c80daa3557d37c63796133595314186.png" width="1115" height="655" class="img_ev3q"></p>]]></content>
+        <content type="html"><![CDATA[<p>Luhn Brand is cool.. blah blah</p><p><img loading="lazy" alt="Luhn Brand" src="/docs.hashed.network/assets/images/luhn-brand-7c80daa3557d37c63796133595314186.png" width="1115" height="655" class="img_ev3q"></p>]]></content>
         <author>
             <name>Augusto Lara</name>
             <uri>https://github.com/augustolara</uri>
@@ -24,7 +24,7 @@
     <entry>
         <title type="html"><![CDATA[Treasury Proposal Approved]]></title>
         <id>dot-treasury-pallets</id>
-        <link href="https://docs.hashed.network/blog/dot-treasury-pallets"/>
+        <link href="https://docs.hashed.network/docs.hashed.network/blog/dot-treasury-pallets"/>
         <updated>2022-06-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We were approved for a public Polkadot treasury proposal.]]></summary>
         <content type="html"><![CDATA[<p>We were approved for a public Polkadot treasury proposal.</p>]]></content>
@@ -42,7 +42,7 @@
     <entry>
         <title type="html"><![CDATA[W3F Grant Approved]]></title>
         <id>w3f-nbv-m1</id>
-        <link href="https://docs.hashed.network/blog/w3f-nbv-m1"/>
+        <link href="https://docs.hashed.network/docs.hashed.network/blog/w3f-nbv-m1"/>
         <updated>2022-06-14T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
         <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>

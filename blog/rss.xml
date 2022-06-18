@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Hashed Network Documentation Blog</title>
-        <link>https://docs.hashed.network/blog</link>
+        <link>https://docs.hashed.network/docs.hashed.network/blog</link>
         <description>Hashed Network Documentation Blog</description>
         <lastBuildDate>Sun, 26 Jun 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,17 +10,17 @@
         <language>en</language>
         <item>
             <title><![CDATA[Luhn Brand Launch]]></title>
-            <link>https://docs.hashed.network/blog/luhn-brand</link>
+            <link>https://docs.hashed.network/docs.hashed.network/blog/luhn-brand</link>
             <guid>luhn-brand</guid>
             <pubDate>Sun, 26 Jun 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Luhn Brand is cool.. blah blah]]></description>
-            <content:encoded><![CDATA[<p>Luhn Brand is cool.. blah blah</p><p><img loading="lazy" alt="Luhn Brand" src="/assets/images/luhn-brand-7c80daa3557d37c63796133595314186.png" width="1115" height="655" class="img_ev3q"></p>]]></content:encoded>
+            <content:encoded><![CDATA[<p>Luhn Brand is cool.. blah blah</p><p><img loading="lazy" alt="Luhn Brand" src="/docs.hashed.network/assets/images/luhn-brand-7c80daa3557d37c63796133595314186.png" width="1115" height="655" class="img_ev3q"></p>]]></content:encoded>
             <category>luhn</category>
             <category>branding</category>
         </item>
         <item>
             <title><![CDATA[Treasury Proposal Approved]]></title>
-            <link>https://docs.hashed.network/blog/dot-treasury-pallets</link>
+            <link>https://docs.hashed.network/docs.hashed.network/blog/dot-treasury-pallets</link>
             <guid>dot-treasury-pallets</guid>
             <pubDate>Wed, 15 Jun 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[We were approved for a public Polkadot treasury proposal.]]></description>
@@ -30,7 +30,7 @@
         </item>
         <item>
             <title><![CDATA[W3F Grant Approved]]></title>
-            <link>https://docs.hashed.network/blog/w3f-nbv-m1</link>
+            <link>https://docs.hashed.network/docs.hashed.network/blog/w3f-nbv-m1</link>
             <guid>w3f-nbv-m1</guid>
             <pubDate>Tue, 14 Jun 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>
