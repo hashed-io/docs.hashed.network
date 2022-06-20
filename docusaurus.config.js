@@ -9,7 +9,7 @@ const config = {
   title: 'Hashed Network Documentation',
   tagline: '',
   url: 'https://docs.hashed.network',
-  baseUrl: '/docs.hashed.network/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
