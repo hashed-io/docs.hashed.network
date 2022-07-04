@@ -1,0 +1,20 @@
+@startuml "Private Server Sequence"
+database IPFS
+collections "Confidential\nDocuments" as CD
+actor "Client" as Client
+control "Privacy Sidecar" as Server
+
+Client -> Server: authenticate with Wallet 
+
+group Temporary [pending release of polkadot-js]
+  Server -> Server: signatureVerify
+  Server <-> Keystore ** : persistence of\n symmetric secrets
+end
+
+Server -> Client: secrets
+
+Client <-> CD: metadata for encrypted CIDs
+Client -> Client: encrypt/decrypt \nand share data
+Client <-> IPFS: persistence
+
+@enduml

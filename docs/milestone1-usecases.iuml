@@ -1,0 +1,18 @@
+@startuml "Milestone 1 Use Cases"
+left to right direction
+actor George as george
+actor Samantha as samantha
+
+package Marketplace {
+
+  usecase "Apply to marketplace" as apply
+  george --> apply
+
+  usecase "Create marketplace" as create
+  samantha --> create
+
+  usecase "Enroll applicants" as enroll
+  samantha --> enroll 
+}
+
+@enduml
