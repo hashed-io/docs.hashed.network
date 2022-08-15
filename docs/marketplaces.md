@@ -234,7 +234,7 @@ Applicants by marketplace||
 |get marketplaces' applicants by specific status|applicants_by_marketplace(marketplace_id, ApplicationStatus)|[account_id]|
 |get marketplaces' applicants (grouped by status)|applicants_by_marketplace.entries( marketplace_id)|[(ApplicationStatus, [account_id])]|
 |get all applicants (grouped by marketplaces and status)|applicants_by_marketplace.entries()|[(marketplace_id, ApplicationStatus, [acocuntId])]|
-|get user's marketplace application|applications_by_account(account_id, marketplace_id)|application_id|
+|get user's marketplace application|applications_by_account(account_id, marketplace_id)|[application_id]|
 |get all user's applications (grouped by marketplace)|applications_by_account.entries( account_id)|[(marketplace_id, application_id )]|
 |get all applications (grouped by account and marketplaces)|applications_by_account.entries()|[(account_id, marketplace_id, application_id )]|
 |get offer info||[OfferData<T>]|
