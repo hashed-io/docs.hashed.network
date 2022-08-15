@@ -65,7 +65,7 @@ Compatible with:
 |label: BoundedVec\<u8>|
 </br>
 
----
+
 
 |Application|
 |--|
@@ -75,14 +75,14 @@ Compatible with:
 
 </br>
 
----
+
 
 |ApplicationField|
 |--|
 |display_name|
 </br>
 
----
+--- 
 
 ### Enumerators
 
@@ -93,7 +93,7 @@ Compatible with:
 |Rejected|
 </br>
 
----
+
 
 |MarketplaceAuthority|
 |--|
@@ -103,7 +103,7 @@ Compatible with:
 |RedemptionSpecialist|
 </br>
 
----
+
 
 |AccountOrApplication|
 |--|
@@ -111,7 +111,7 @@ Compatible with:
 |Application([u8;32])|
 </br>
 
----
+
 
 |AccountOrApplication|
 |--|
@@ -119,7 +119,7 @@ Compatible with:
 |Closed|
 </br>
 
----
+
 
 |OfferType|
 |--|
@@ -137,7 +137,7 @@ Compatible with:
 |Val|Marketplace|
 </br>
 
----
+
 
 |Authorities by Marketplace||
 |--|--|
@@ -146,7 +146,7 @@ Compatible with:
 |val|BoundedVec\<accountId>|
 </br>
 
----
+
 
 Applicants by marketplace||
 |--|--|
@@ -155,7 +155,7 @@ Applicants by marketplace||
 |val|BoundedVec\<accountId>|
 </br>
 
----
+
 
 |Marketplaces by authority||
 |--|--|
@@ -164,7 +164,7 @@ Applicants by marketplace||
 |val|BoundedVec\<MarketplaceAuthority>|
 </br>
 
----
+
 
 |Applications||
 |--|--|
@@ -172,7 +172,7 @@ Applicants by marketplace||
 |val|Application|
 </br>
 
----
+
 
 |Applications by account||
 |--|--|
@@ -181,7 +181,7 @@ Applicants by marketplace||
 |val|application_id: [u8;32]|
 </br>
 
----
+
 
 |Custodians||
 |--|--|
@@ -190,7 +190,7 @@ Applicants by marketplace||
 |val|Vec\<AccountId>|
 </br>
 
----
+
 
 |OffersByAccount||
 |--|--|
@@ -198,7 +198,7 @@ Applicants by marketplace||
 |val|Offer_id's: Boundedvec\<[u8;32]> |
 </br>
 
----
+
 
 |OffersByMarketplace||
 |--|--|
@@ -206,17 +206,13 @@ Applicants by marketplace||
 |val|Offer_id's: Boundedvec\<[u8;32]> |
 </br>
 
----
-
 |OffersByMarketplace||
 |--|--|
 |key1| offer_id: [u8;32]|
 |val|Offer: OfferData\<T> |
 </br>
 
-
-
-
+---
 
 ## Queries
 |Description|polkadot-js|Returns|
