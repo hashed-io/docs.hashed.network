@@ -54,4 +54,191 @@ Compatible with:
 - Stablecoins
 - USD/Banks
 - Unspecified
+- 
+
+## Data Structures
+
+### Structs
+
+| Marketplace |
+|--|
+|label: BoundedVec\<u8>|
+</br>
+
+---
+
+|Application|
+|--|
+|status: ApplicationStatus|
+|fields: BoundedVec\<ApplicationField>|
+|feedback: BoundedVec\<u8>|
+
+</br>
+
+---
+
+|ApplicationField|
+|--|
+|display_name|
+</br>
+
+---
+
+### Enumerators
+
+|ApplicationStatus|
+|--|
+|Pending|
+|Approved|
+|Rejected|
+</br>
+
+---
+
+|MarketplaceAuthority|
+|--|
+|Owner|
+|Admin|
+|Appraiser|
+|RedemptionSpecialist|
+</br>
+
+---
+
+|AccountOrApplication|
+|--|
+|Account(T::AccountId)|
+|Application([u8;32])|
+</br>
+
+---
+
+|AccountOrApplication|
+|--|
+|Open|
+|Closed|
+</br>
+
+---
+
+|OfferType|
+|--|
+|SellOrder|
+|BuyOrder|
+</br>
+
+---
+
+### Storage Maps
+
+|Marketplaces||
+|--|--|
+|Key| marketplace_id: [u8;32]|
+|Val|Marketplace|
+</br>
+
+---
+
+|Authorities by Marketplace||
+|--|--|
+|key1| marketplace_id: [u8;32]|
+|key2|MarketplaceAuthority|
+|val|BoundedVec\<accountId>|
+</br>
+
+---
+
+Applicants by marketplace||
+|--|--|
+|key1| marketplace_id: [u8;32]|
+|key2|ApplicationStatus|
+|val|BoundedVec\<accountId>|
+</br>
+
+---
+
+|Marketplaces by authority||
+|--|--|
+|key1| account: AccountId|
+|key2|marketplace_id: [u8;32]|
+|val|BoundedVec\<MarketplaceAuthority>|
+</br>
+
+---
+
+|Applications||
+|--|--|
+|key1| application_id: [u8;32]|
+|val|Application|
+</br>
+
+---
+
+|Applications by account||
+|--|--|
+|key1| account: AccountId|
+|key2|marketplace_id: [u8;32]|
+|val|application_id: [u8;32]|
+</br>
+
+---
+
+|Custodians||
+|--|--|
+|key1| account: AccountId|
+|key2|marketplace_id: [u8;32]|
+|val|Vec\<AccountId>|
+</br>
+
+---
+
+|OffersByAccount||
+|--|--|
+|key1| account: AccountId|
+|val|Offer_id's: Boundedvec\<[u8;32]> |
+</br>
+
+---
+
+|OffersByMarketplace||
+|--|--|
+|key1| marketplace_id: [u8;32]|
+|val|Offer_id's: Boundedvec\<[u8;32]> |
+</br>
+
+---
+
+|OffersByMarketplace||
+|--|--|
+|key1| offer_id: [u8;32]|
+|val|Offer: OfferData\<T> |
+</br>
+
+
+
+
+
+## Queries
+|Description|polkadot-js|Returns|
+|--|--|--|
+|get marketplace|marketplaces(id)|[Marketplace]|
+|get all marketplaces|marketplaces.entries()|[(marketplace_id, Marketplace)]|
+|get user's roles on a specific market|marketplaces_by_authority(account_id, marketplace_id)|[MarketplaceAuthority]|
+|get user's roles on all markets|marketplaces_by_authority.entries(account)|[(marketplace_id,[MarketplaceAuthority])]|
+|get all users' roles on all markets|marketplaces_by_authority.entries()|[(account_id, marketplace_id,[MarketplaceAuthority])]|
+|get marketplace specific authorities|authorities_by_marketplace(marketplace_id, MarketplaceAuthority)|[account_id]|
+|get all marketplace's authorities (grouped by roles)|authorities_by_marketplace. entries(marketplace_id)|[(MarketplaceAuthority, [account_id])]|
+|get all authorities (grouped by markets and roles)|authorities_by_marketplace.entries()|[(marketplace_id, MarketplaceAuthority, [account_id])]|
+|get application|applications(application_id)|[Application]|
+|get all applications|applications.entries()|[(application_id, Application)]|
+|get marketplaces' applicants by specific status|applicants_by_marketplace(marketplace_id, ApplicationStatus)|[account_id]|
+|get marketplaces' applicants (grouped by status)|applicants_by_marketplace.entries( marketplace_id)|[(ApplicationStatus, [account_id])]|
+|get all applicants (grouped by marketplaces and status)|applicants_by_marketplace.entries()|[(marketplace_id, ApplicationStatus, [acocuntId])]|
+|get user's marketplace application|applications_by_account(account_id, marketplace_id)|application_id|
+|get all user's applications (grouped by marketplace)|applications_by_account.entries( account_id)|[(marketplace_id, application_id )]|
+|get all applications (grouped by account and marketplaces)|applications_by_account.entries()|[(account_id, marketplace_id, application_id )]|
+|get offer info||[OfferData<T>]|
+|get offers by account||[(AccountId, [Offer_id's])]|
+|get offers by marketplace||[(marketplace_id, [Offer_id's])]|
+|get all offer id's by item||[(collection_id, item_id, [offer_id's])]|
 
