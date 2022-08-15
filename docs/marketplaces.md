@@ -82,6 +82,12 @@ Compatible with:
 |display_name|
 </br>
 
+
+|ApplicationField|
+|--|
+|display_name|
+</br>
+
 --- 
 
 ### Enumerators
@@ -121,17 +127,25 @@ Compatible with:
 
 
 
-|OfferType|
+|OfferData|
 |--|
-|SellOrder|
-|BuyOrder|
+|marketplace_id: [u8,32]|
+|collection_id: u32|
+|item_id: u32|
+|creator: AccountId|
+|price: u128|
+|status: OfferStatus|
+|creation_date: timestamp|
+|expiration_date timestamp + 7 days|
+|type: OfferType|
+|buyer: Option<(AccountId, Marketplace_id)>|
 </br>
 
 ---
 
 ### Storage Maps
 
-|Marketplaces||
+|Marketplaces ||
 |--|--|
 |Key| marketplace_id: [u8;32]|
 |Val|Marketplace|
