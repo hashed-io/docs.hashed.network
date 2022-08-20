@@ -153,29 +153,11 @@ Compatible with:
 
 
 
-|Authorities by Marketplace||
-|--|--|
-|key1| marketplace_id: [u8;32]|
-|key2|MarketplaceAuthority|
-|val|BoundedVec\<accountId>|
-</br>
-
-
-
 Applicants by marketplace||
 |--|--|
 |key1| marketplace_id: [u8;32]|
 |key2|ApplicationStatus|
 |val|BoundedVec\<accountId>|
-</br>
-
-
-
-|Marketplaces by authority||
-|--|--|
-|key1| account: AccountId|
-|key2|marketplace_id: [u8;32]|
-|val|BoundedVec\<MarketplaceAuthority>|
 </br>
 
 
@@ -233,12 +215,12 @@ Applicants by marketplace||
 |--|--|--|
 |get marketplace|marketplaces(id)|[Marketplace]|
 |get all marketplaces|marketplaces.entries()|[(marketplace_id, Marketplace)]|
-|get user's roles on a specific market|marketplaces_by_authority(account_id, marketplace_id)|[MarketplaceAuthority]|
-|get user's roles on all markets|marketplaces_by_authority.entries(account)|[(marketplace_id,[MarketplaceAuthority])]|
-|get all users' roles on all markets|marketplaces_by_authority.entries()|[(account_id, marketplace_id,[MarketplaceAuthority])]|
-|get marketplace specific authorities|authorities_by_marketplace(marketplace_id, MarketplaceAuthority)|[account_id]|
-|get all marketplace's authorities (grouped by roles)|authorities_by_marketplace. entries(marketplace_id)|[(MarketplaceAuthority, [account_id])]|
-|get all authorities (grouped by markets and roles)|authorities_by_marketplace.entries()|[(marketplace_id, MarketplaceAuthority, [account_id])]|
+|get user's roles on a specific market|rbac.rolesByUser(account,pallet_id, marketplace_id)|[role_id]|
+|get user's roles on all markets|rbac.rolesByUser.entries(account_id)|[((account_id, pallet_id, marketplace_id),[role_id's])]|
+|get all users' roles on all markets|rbac.rolesByUser.entries()|[((account_id, pallet_id, marketplace_id),[role_id's])]|
+|get marketplace specific authorities|rbac.usersByScope(pallet_id,marketplace_id, role_id)|[account_id]|
+|get all marketplace's authorities (grouped by roles)|rbac.usersByScope.entries(pallet_id,marketplace_id)|[((pallet_id, scope_id, role_id), [account_id])]|
+|get all authorities (grouped by markets and roles)|rbac.usersByScope.entries(pallet_id)|[((pallet_id, scope_id, role_id), [account_id])]|
 |get application|applications(application_id)|[Application]|
 |get all applications|applications.entries()|[(application_id, Application)]|
 |get marketplaces' applicants by specific status|applicants_by_marketplace(marketplace_id, ApplicationStatus)|[account_id]|
@@ -247,8 +229,12 @@ Applicants by marketplace||
 |get user's marketplace application|applications_by_account(account_id, marketplace_id)|[application_id]|
 |get all user's applications (grouped by marketplace)|applications_by_account.entries( account_id)|[(marketplace_id, application_id )]|
 |get all applications (grouped by account and marketplaces)|applications_by_account.entries()|[(account_id, marketplace_id, application_id )]|
-|get offer info||[OfferData<T>]|
-|get offers by account||[(AccountId, [Offer_id's])]|
-|get offers by marketplace||[(marketplace_id, [Offer_id's])]|
-|get all offer id's by item||[(collection_id, item_id, [offer_id's])]|
+|get offer info|offersInfo(offer_id)|OfferData|
+|get all offers|offersInfo.entries()|[(offer_id, OfferData)]|
+|get offers by account|offersByAccount(account_id)|[offer_id's]|
+|get all offers grouped by accounts|offersByAccount.entries()|[(AccountId, [Offer_id's])]|
+|get offers by marketplace|offersByMarketplace(marketplace_id)|[Offer_id's]|
+|get offers from all marketplaces|offersByMarketplace.entries()|[(marketplace_id,[offer_id's])]|
+|get offer id's by item|offersByItem(collection_id,item_id)|[offer_id's]|
+|get all offer id's by item|offersByItem.entries()|[((collection_id, item_id), [offer_id's])]|
 
