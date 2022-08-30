@@ -1,5 +1,5 @@
 ---
-title: Tokenomics (out of date)
+title: Tokenomics
 sidebar_position: 3
 tags:
   - HASH

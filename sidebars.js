@@ -20,7 +20,7 @@ const sidebars = {
       label: 'Getting Started',
       collapsible: true,
       collapsed: false,
-      items: ['intro', 'purpose', 'tokenomics'],
+      items: ['intro', 'tokenomics'],
     },
     {
       type: 'category',
