@@ -62,31 +62,31 @@ Compatible with:
 
 | Marketplace |
 |--|
-|label: BoundedVec\<u8>|
-</br>
+|label: BoundedVec\<pre>u8</pre>|
+
 
 
 
 |Application|
 |--|
 |status: ApplicationStatus|
-|fields: BoundedVec\<ApplicationField>|
-|feedback: BoundedVec\<u8>|
+|fields: BoundedVec\<pre>ApplicationField</pre>|
+|feedback: BoundedVec\<pre>u8</pre>|
 
-</br>
+
+
+
+
+|ApplicationField|
+|--|
+|display_name|
 
 
 
 |ApplicationField|
 |--|
 |display_name|
-</br>
 
-
-|ApplicationField|
-|--|
-|display_name|
-</br>
 
 --- 
 
@@ -97,7 +97,7 @@ Compatible with:
 |Pending|
 |Approved|
 |Rejected|
-</br>
+
 
 
 
@@ -107,7 +107,7 @@ Compatible with:
 |Admin|
 |Appraiser|
 |RedemptionSpecialist|
-</br>
+
 
 
 
@@ -115,7 +115,7 @@ Compatible with:
 |--|
 |Account(T::AccountId)|
 |Application([u8;32])|
-</br>
+
 
 
 
@@ -123,7 +123,7 @@ Compatible with:
 |--|
 |Open|
 |Closed|
-</br>
+
 
 
 
@@ -139,7 +139,7 @@ Compatible with:
 |expiration_date timestamp + 7 days|
 |type: OfferType|
 |buyer: Option<(AccountId, Marketplace_id)>|
-</br>
+
 
 ---
 
@@ -149,7 +149,7 @@ Compatible with:
 |--|--|
 |Key| marketplace_id: [u8;32]|
 |Val|Marketplace|
-</br>
+
 
 
 
@@ -157,8 +157,8 @@ Applicants by marketplace||
 |--|--|
 |key1| marketplace_id: [u8;32]|
 |key2|ApplicationStatus|
-|val|BoundedVec\<accountId>|
-</br>
+|val|BoundedVec\<pre>AccountId</pre>|
+
 
 
 
@@ -166,7 +166,7 @@ Applicants by marketplace||
 |--|--|
 |key1| application_id: [u8;32]|
 |val|Application|
-</br>
+
 
 
 
@@ -175,7 +175,7 @@ Applicants by marketplace||
 |key1| account: AccountId|
 |key2|marketplace_id: [u8;32]|
 |val|application_id: [u8;32]|
-</br>
+
 
 
 
@@ -183,8 +183,8 @@ Applicants by marketplace||
 |--|--|
 |key1| account: AccountId|
 |key2|marketplace_id: [u8;32]|
-|val|Vec\<AccountId>|
-</br>
+|val|Vec\<pre>AccountId</pre>|
+
 
 
 
@@ -192,7 +192,7 @@ Applicants by marketplace||
 |--|--|
 |key1| account: AccountId|
 |val|Offer_id's: Boundedvec\<[u8;32]> |
-</br>
+
 
 
 
@@ -200,13 +200,13 @@ Applicants by marketplace||
 |--|--|
 |key1| marketplace_id: [u8;32]|
 |val|Offer_id's: Boundedvec\<[u8;32]> |
-</br>
+
 
 |OffersByMarketplace||
 |--|--|
 |key1| offer_id: [u8;32]|
-|val|Offer: OfferData\<T> |
-</br>
+|val|Offer: OfferData\<pre>T</pre> |
+
 
 ---
 

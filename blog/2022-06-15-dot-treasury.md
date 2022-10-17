@@ -5,4 +5,4 @@ authors: [max, augusto]
 tags: [polkadot, grant]
 ---
 
-We were approved for a public Polkadot treasury proposal.
+The proposal titled [Graded Assets and Fractional Uniques](https://polkadot.polkassembly.io/motion/217) was approved with unanimous support.
