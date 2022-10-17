@@ -18,6 +18,8 @@ Americans disagreed with Blackstone.
 
 In the Declaration of Independence, Jefferson was clear to emphasize that the truths are self-evident, meaning they are known as true without proof, that they come from Nature or God and are not granted by a state or monarch. 
 
+![Independence](./independence.png)
+
 Madison’s [Essay on Sovereignty](https://rotunda.upress.virginia.edu/founders/default.xqy?keys=FOEA-print-02-02-02-3188) opens with "[i]t has hitherto been understood, that the supreme power, that is, the sovereignty of the people of the States, was in its nature divisible; and was in fact divided". 
 
 As we frame how web3 and self-sovereignty is regulated by states, we should adhere to the same principle that sovereignty is divisible. Our Founders never intended for the state to have the control that it currently enjoys, such as control over financial censorship, ability to interject into commercial contracts, and surveil private information. It is states that are transforming, not the self-evident truths. 
@@ -49,6 +51,8 @@ The moderator is typically paid a commission on the economic value of the trade 
 The burn is native to the L1 and broadly implemented, configured at genesis to a value of 10% across all marketplaces. It may be set to 0% or otherwise via governance, which may also upgrade the runtime to alter functionality.
 
 The HASH token is also used to cover fees derived from the weight of transactions, which is a function of physical disk and compute requirements for a transaction. There are community and commercially available options for sponsoring permissioned faucets.
+
+![Web3 Wheel](./web3-wheel.png)
 
 For the Network to maintain economic viability, the burn must always remain less than the a) cost to fork minus the b) value of the network effects. If the burn encroaches on that amount, Marketplaces should fork, perhaps using the same software on another network or even one they self-host. The game theory should drive the burn towards zero with scale. Most interestingly, the game theory holds the Network accountable to not just building valid blocks, but generating actual economic network effects for users. Long-term viable networks must seek elimination of all rent seeking.
 
@@ -82,9 +86,9 @@ Hashed Network is Independent per the following necessary and sufficient conditi
 
 The Tenth Amendment states that "The powers not delegated to the United States by the Constitution, nor prohibited by it to the States, are reserved to the States respectively, or to the people."
 
-Digital scarcity, as a technology, or web3, as a suite of tools, simultaneously requires and establishes censorship resistance across a global digital landscape. These layers, like TCP/IP, seeks little benefit from geographical borders. 
+Digital scarcity, as a technology, or web3, as a suite of tools, simultaneously requires and establishes censorship resistance across a global digital landscape. It's required because each node must sync the same chain and it's established because users can easily swap to another node. These layers, like TCP/IP, seeks little benefit from geographical borders. 
 
-The nature of the technology, necessitates that the powers are "not delegated to" the federal system or the state system. L1 node operators and L1 protocol developers are performing work at the will of the Network, and they must have independence for the L1 blockchain to operate correctly. The protocol software is very low in the stack, where, like TCP/IP, the technology does not have relationships with or even awareness of users.
+The nature of the technology necessitates that the powers are "not delegated to" the federal system or the state system. L1 node operators and L1 protocol developers are performing work at the will of the Network, and they must have independence for the L1 blockchain to operate correctly. The protocol software is very low in the stack, where, like TCP/IP, the technology does not have relationships with or even awareness of users.
 
 
 Inasmuch, The <b>Bill of Rights for L1 Node Operators and Developers</b>:
@@ -93,8 +97,8 @@ Inasmuch, The <b>Bill of Rights for L1 Node Operators and Developers</b>:
 - L1 node operators must not be expected or required to provide information to any party that is otherwise publicly available on-chain or in documentation materials. 
 - L1 developers must be free and independent to author the protocol desired by the L1 network without constraint or limitation. 
 
+![Node Operator](./node-operator.png)
 
-~ 
-
+<img src="blog/independence/node-operator.png" width="200" />
 
 [1] Ellis, Joseph. The Cause: The American Revolution and Its Discontents. Liveright. 2021.
