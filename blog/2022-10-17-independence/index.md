@@ -81,7 +81,6 @@ Hashed Network is Independent per the following necessary and sufficient conditi
 3. Node operators may perform duties pursuant to Network sovereignty.
 4. If Network sovereignty is in conflict with state or other sovereign claims, Network sovereignty takes precedence.
 
-
 <hr/>
 
 The Tenth Amendment states that "The powers not delegated to the United States by the Constitution, nor prohibited by it to the States, are reserved to the States respectively, or to the people."
@@ -97,8 +96,11 @@ Inasmuch, The <b>Bill of Rights for L1 Node Operators and Developers</b>:
 - L1 node operators must not be expected or required to provide information to any party that is otherwise publicly available on-chain or in documentation materials. 
 - L1 developers must be free and independent to author the protocol desired by the L1 network without constraint or limitation. 
 
-![Node Operator](./node-operator.png)
+<div style={{textAlign: 'center'}}>
 
-<img src="blog/independence/node-operator.png" width="200" />
+![image](node-operator.png)
+
+</div>
+
 
 [1] Ellis, Joseph. The Cause: The American Revolution and Its Discontents. Liveright. 2021.
