@@ -4,7 +4,14 @@ title: Native Bitcoin Vaults
 authors: [max]
 ---
 
-# Native Bitcoin Vaults (NBV)
+<head>
+  <title>Native Bitcoin Vaults Milestone 2 Submitted</title>
+  <meta charSet="utf-8" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:image" content="Native Bitcoin Vaults Milestone 2 Submitted" />
+  <meta property="og:title" content="nbv-cover-image.png" />
+  <meta property="og:url" content="https://docs.hashed.network/blog/nbv-m2" />
+</head>
 
 ## Summary
 There are 3 key features of Native Bitcoin Vaults. 
@@ -25,6 +32,8 @@ There are 3 key 'reasons to believe' NBV is useful.
 1. More businesses are adopting bitcoin on their balance sheet. 
 2. NBV is real, simple, pure bitcoin. That's what people want. 
 3. The market for approval and payment tools is robust.
+
+![image](./nbv-cover-image.png)
 
 # Features 
 ### Flexible Policy Engine 
@@ -72,10 +81,5 @@ There are 3 key focus areas on the road map:
 2. Migrate from off-chain worker BDK-integration to WASM
 3. Integrate additional signers
 
-<div style={{textAlign: 'center'}}>
-
-![image](../2022-10-17-independence/node-operator.png)
-
-</div>
 
 
