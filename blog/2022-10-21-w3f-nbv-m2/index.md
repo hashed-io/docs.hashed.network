@@ -8,8 +8,8 @@ authors: [max]
   <title>Native Bitcoin Vaults Milestone 2 Submitted</title>
   <meta charSet="utf-8" />
   <meta name="twitter:card" content="summary" />
-  <meta property="og:image" content="Native Bitcoin Vaults Milestone 2 Submitted" />
-  <meta property="og:title" content="nbv-cover-image.png" />
+  <meta property="og:image" content="nbv-cover-image.png" />
+  <meta property="og:title" content="Native Bitcoin Vaults Milestone 2 Submitted" />
   <meta property="og:url" content="https://docs.hashed.network/blog/nbv-m2" />
 </head>
 
