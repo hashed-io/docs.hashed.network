@@ -7,8 +7,8 @@ authors: [max]
 <head>
   <title>Polkadot Signer Usability</title>
   <meta charSet="utf-8" />
-  <meta property="og:image" content="Polkadot Signer Usability" />
-  <meta property="og:title" content="signer.png" />
+  <meta property="og:image" content="https://docs.hashed.network/img/cover-signer.png" />
+  <meta property="og:title" content="Polkadot Signer Usability" />
   <meta property="og:url" content="https://docs.hashed.network/blog/signer" />
 </head>
 
