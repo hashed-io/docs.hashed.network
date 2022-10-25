@@ -15,7 +15,7 @@ authors: [max]
 
 Onboarding onto Polkadot is hard and there are several areas of friction that users run into. This article identifies three of them and explains the solution that Hashed Network uses to address them.
 
-We did not develop the core protocols, but we have built many dapps with them on other blockchains with technical and user success.  I seek feedback on the technical architecture to ensure there are no foundational flaws, any reasons why it won't work with Polkadot, or advice and support on implementation. 
+I did not develop these core protocols, but we have built many dapps with them on other blockchains with technical and user success.  I seek feedback on the technical architecture to ensure there are no foundational flaws, any reasons why it wouldn't work with Polkadot, or advice and support on implementation. 
 
 ### The Native Token Problem
 #### Problem
@@ -26,7 +26,7 @@ The Network's solution is to create Sybil-attack resistant methods for a faucet,
 
 Whitelisted oracles/origins that are allowed to use the initial faucet are voted in via chain governance, and those origins are allowed to use the extrinsic for new account creation and initial faucet. These oracles/origins, such as wallets or applications, will need to provide evidence to voters that they have Sybil protection in place. 
 
-HASH for these users will be allocated at genesis and balanced via governance. Easy onboarding is important. "We will never reel them in if taking the bait tastes terrible". 
+Allowance for these users will be allocated at genesis and balanced via governance.
 
 ![image](./signer.png)
 
@@ -57,7 +57,7 @@ When a user access an application on desktop, they are prompted to login by scan
 
 This step connects the browser and device for the duration of a configurable session, which can be managed on the device. When the user performs an action in the application that requires a transaction signature, it is sent to the device over the network as a push notification. The payload is signed, signature is passed back to the application, where it is broadcast. 
 
-This feature requires a tiny intermediate relay, which we are investigating building directly into the Substrate node. 
+This feature requires a small intermediate relay, which we are investigating building directly into the Substrate node. 
 
 ## Action Plan
 Part 1 above is made possible by a [signing request protocol](https://github.com/greymass/eosio-signing-request#encoding-a-signing-request) that can be encoded in the application and decoded by the signer. 
