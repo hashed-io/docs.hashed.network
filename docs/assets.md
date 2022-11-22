@@ -1,5 +1,5 @@
 ---
-title: IRL Assets
+title: Assets
 sidebar_position: 20
 ---
 

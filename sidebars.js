@@ -15,19 +15,26 @@
 const sidebars = {
 
   docs: [
-    {
-      type: 'category',
-      label: 'Getting Started',
-      collapsible: true,
-      collapsed: false,
-      items: ['intro'],
-    },
+    // {
+    //   type: 'category',
+    //   label: 'Getting Started',
+    //   collapsible: true,
+    //   collapsed: false,
+    //   items: ['intro'],
+    // },
     {
       type: 'category',
       label: 'Key Concepts',
       collapsible: true,
       collapsed: false,
-      items: ['marketplaces', 'irl_assets', 'confidential_docs', 'banking_integration'],
+      items: ['nbv', 'marketplaces', 'assets', 'confidential_docs', 'banking_integration'],
+    },
+    {
+      type: 'category',
+      label: 'Tokenomics',
+      collapsible: true,
+      collapsed: false,
+      items: ['genesis_allocations', 'vesting', 'hash_usage', 'hash_inflation', 'governance', ],
     },
     // {
     //   type: 'category',

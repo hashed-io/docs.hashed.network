@@ -35,15 +35,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/hashed-io/docs.hashed.network',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -64,13 +60,13 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'genesis_allocations',
             position: 'left',
             label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/hashed-io/hashed-network-docs',
+            href: 'https://github.com/hashed-io/docs.hashed.network',
             label: 'GitHub',
             position: 'right',
           },
@@ -79,22 +75,22 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Introduction',
-                to: '/docs/intro',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Introduction',
+          //       to: '/docs/intro',
+          //     },
+          //   ],
+          // },
           {
             title: 'Community',
             items: [
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
+              // {
+              //   label: 'Discord',
+              //   href: 'https://discordapp.com/invite/docusaurus',
+              // },
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/HashedNetwork',
@@ -115,7 +111,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Hashed Systems DAO LLC`,
+        // copyright: `Copyright © ${new Date().getFullYear()} Hashed Systems DAO LLC`,
       },
       prism: {
         theme: lightCodeTheme,
