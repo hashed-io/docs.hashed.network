@@ -4,7 +4,7 @@ tags:
   - PRXY CO
   - Fund Admin
 slug: fund-admin
-authors: [max, connor]
+authors: [connor, max]
 ---
 
 ## What is Fund Administration?
