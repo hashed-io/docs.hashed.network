@@ -27,7 +27,7 @@ const sidebars = {
       label: 'Key Concepts',
       collapsible: true,
       collapsed: false,
-      items: ['nbv', 'marketplaces', 'assets', 'confidential_docs', 'banking_integration'],
+      items: ['fund_administration', 'nbv', 'marketplaces', 'assets', 'confidential_docs', 'integrations'],
     },
     {
       type: 'category',
