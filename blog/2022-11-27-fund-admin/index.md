@@ -1,11 +1,19 @@
 ---
-title: Fund Admin in Action
+title: Fund Administration in Action
 tags:
   - PRXY CO
   - Fund Admin
 slug: fund-admin
 authors: [connor, max]
 ---
+<head>
+  <title>Fund Administration in Action</title>
+  <meta charSet="utf-8" />
+  <meta property="og:image" content="https://docs.hashed.network/img/cover-fund-admin.png" />
+  <meta property="og:description" content="Fund administrators use Hashed Network and serve as a third-party source of integrity while also handling a Fund’s back-office such as accounting, limited-partner reporting, capital tracking, and capital distributions. " />
+  <meta property="og:title" content="Fund Administration in Action" />
+  <meta property="og:url" content="https://docs.hashed.network/blog/fund-admin" />
+</head>
 
 ## What is Fund Administration?
 
@@ -16,7 +24,7 @@ Here are two simple examples:
 
 2. A venture capital group forms a venture capital fund called VC Fund X. Similar to the above, VC Fund X accepts capital from investors, but, this time the purpose of VC Fund X is to invest in early stage technology companies. Here, the fund administrator may be in charge of ensuring the capital is properly allocated, released and spent on qualifying early-stage companies within VC Fund X’s target class.
 
-Fund administrators serve as a third-party source of integrity while they often also handle much of a Fund’s back-office such as accounting, LP reporting, capital tracking, and capital distributions. 
+Fund administrators serve as a third-party source of integrity while they often also handle much of a Fund’s back-office such as accounting, limited-partner reporting, capital tracking, and capital distributions. 
 
 ## What is PRXY and EB5 Proxy?
 
@@ -40,11 +48,13 @@ The [11th Ave Marriott Hotel](http://ny-eb5.com/projects/11th-ave-marriott-tribu
 ![image](marriott-construction.png)
 > Augusto Lara, Hashed Systems DAO LLC Co-founder, posing with the under construction 11th Ave Marriott Hotel in the background 
 
-## Why does it need a blockchain if EB5 projects use USD Fiat money?
+## What is the role of the blockchain in the application?
 
-Hashed Network features fund administration primitives that secure the *process* of shared funds, with support for integrating payment systems that may or may not use a blockchain.
+Hashed Network features fund administration primitives that secure the *process* of shared funds, with support for integrating payment systems that may or may not use a blockchain. 
 
-The current users receive a lot of value even without final settlement of funds on-chain. The banker role processes the payment using traditional methods, and then attests that it was successful in the app. The general processes in this industry are laborious and time spent handling information sharing is high, so the users love how everything for the project is in “one place”. 
+These primitives integrate with Hashed Network pallets such as bitcoin vaults and role-based access control. The Network also integrates with Wyoming [Special Purpose Depository Institutions](https://wyomingbankingdivision.wyo.gov/banks-and-trust-companies/special-purpose-depository-institutions) (SPDI). SPDIs "conduct activity under Wyoming regulations tailored to digital assets, which address issues such as technology controls, transaction handling, and custody operations for digital assets." [wyo.gov](https://wyomingbankingdivision.wyo.gov/banks-and-trust-companies/special-purpose-depository-institutions)
+
+EB5 Proxy users receive significant value even without final settlement occuring with digital assets. A payee can submit a drawdown request with appropriate backup info; the banker role reviews and processes the payment using any method, and then attest that it was completed in the app. Users love how the single-source of information for a project is in "one place" and how much time they save. 
 
 Another inherent benefit to the platform is proof-of-existence guarantees for documentation.
 
@@ -64,17 +74,17 @@ Even though final settlement of these funds are not yet being executed on-chain,
 
 ## Why Hashed Network on Polkadot? 
 
-We use Polkadot to secure the immutability and functionality of the blockchain. Polkadot is a large and fast growing ecosystem. In terms of community of developers, it is the fastest growing and second largest blockchain ecosystem. Among many strengths, Polkadot specializes on how various blockchain ecosystems interface among each other, improving compatibility and reach while maintaining flexibility for an unpredictable future.
+Hashed Network use Polkadot to secure the immutability and functionality of the blockchain. Polkadot is a large and fast growing ecosystem. In terms of community of developers, it is the fastest growing and second largest blockchain ecosystem. Among its strengths, Polkadot specializes on how various blockchain ecosystems interface among each other, improving compatibility and reach while maintaining flexibility for an unpredictable future.
 
-Hashed Network hosts the pallets and functionality required by the platform.
+Hashed Network hosts the pallets and functionality used by the platform.
 
 ## How is it secure?
 
-In addition to the security of Polkadot for data and functionality, we use encryption techniques to secure users’ data in a manner where only that user and users the file is shared with can decrypt it. All encryption source code is open source and available for review on Github. 
+In addition to the security of Hashed Network and Polkadot for data and functionality, data is end-to-end encrypted, with support for sharing with specific accounts or groups. All encryption source code is open source and available for review on Github. 
 
 The encrypted data is saved to InterPlanetary File System (IPFS), a flexible, stable, and widely used decentralized storage layer. Users and applications can subscribe to their storage feeds in the app or with a server.
 
-## What is the Road Map for Fund Administration? 
+## What is on the road map for Fund Administration? 
 
 - Improved integration with [Native Bitcoin Vaults](../2022-10-21-w3f-nbv-m2/index.md), [USD and custodied digital assets](https://commerciumbank.com/), and [Statemint Assets](https://forum.polkadot.network/t/statemint-update-roadmap/1200)
 - Milestone budgeting and deliverable tracking 
