@@ -20,7 +20,7 @@ Fund administrators serve as a third-party source of integrity while they often 
 
 ## What is PRXY and EB5 Proxy?
 
-PRXY is a software provider that own and operate the EB5 Proxy platform, purpose-built for EB5 fund administrators, including support for:
+PRXY is a software provider that owns and operates the EB5 Proxy platform, purpose-built for EB5 fund administrators, with support for:
 - recording inbound investments, 
 - tracking budget to actual for projects, 
 - submission of funding requests (“drawdowns”),
