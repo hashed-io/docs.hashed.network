@@ -76,7 +76,7 @@ The encrypted data is saved to InterPlanetary File System (IPFS), a flexible, st
 
 ## What is the Road Map for Fund Administration? 
 
-- Improved integration with [Native Bitcoin Vaults](nbv-m2.md), [USD and custodied digital assets](https://commerciumbank.com/), and [Statemint Assets](https://forum.polkadot.network/t/statemint-update-roadmap/1200)
+- Improved integration with [Native Bitcoin Vaults](../2022-10-21-w3f-nbv-m2/index.md), [USD and custodied digital assets](https://commerciumbank.com/), and [Statemint Assets](https://forum.polkadot.network/t/statemint-update-roadmap/1200)
 - Milestone budgeting and deliverable tracking 
 - Integration with Polkadot governance such as collectives and Governance 2.0
 - Use fund administration primitives to manage HASH genesis allocations
