@@ -4,9 +4,26 @@
  * work well for content-centric websites.
  */
 
+@font-face {
+  font-family: 'AvantGarde';
+  src: url('../../static/fonts/AvantGarde\ LT\ Book\ Regular.ttf');
+}
+
+@font-face {
+  font-family: 'AvantGarde';
+  src: url('../../static/fonts/AvantGarde\ LT\ Book\ Bold.ttf');
+  font-weight: bold;
+}
+
+p, a, h1, h2, h3, h4, h5 {
+  font-family: 'AvantGarde';
+}
+
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
+  --ifm-color-primary: #086EB1;
+  /* --ifm-color-primary: #086EB1; */
+  /* --ifm-color-primary: #2e8555; */
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -15,11 +32,13 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-collapse-button-bg-hover: white
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary: #086EB1;
+  /* --ifm-color-primary: #32E4B6; */
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
@@ -27,4 +46,43 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.text-gradient {
+  background: linear-gradient(106deg,#32E4B6 0%,#086EB1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-background {
+  background-color: #086EB1;
+  background-image: url("../../static/img/monolith.png");
+  /* background-size: cover; */
+}
+
+.menu__link--active {
+  background: linear-gradient(106deg,#32E4B6 0%,#086EB1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu__link--active:hover {
+  color: white
+}
+
+.menu__link--active .navbar__link--active {
+  background: linear-gradient(106deg,#32E4B6 0%,#086EB1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu__list-item-collapsible .menu__link:hover, .menu__list-item-collapsible .menu__link--active {
+  background: linear-gradient(106deg,#32E4B6 0%,#086EB1 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  background: linear-gradient(106deg,#086EB1 0%,#32E4B6 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
 }
