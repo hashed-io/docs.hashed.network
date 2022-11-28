@@ -15,4 +15,4 @@ Here are two simple examples:
 
 2. A venture capital group forms a venture capital fund called VC Fund X. Similar to the above, VC Fund X accepts capital from investors, but, this time the purpose of VC Fund X is to invest in early stage technology companies. Here, the fund administrator may be in charge of ensuring the capital is properly allocated, released and spent on qualifying early-stage companies within VC Fund X’s target class.
 
-Fund administrators serve as a third-party source of integrity while they often also handle much of a Fund’s back-office such as accounting, LP reporting, capital tracking, and capital distributions. 
+Fund administrators serve as a third-party source of integrity while they often also handle much of a Fund’s back-office such as accounting,  limited-partner reporting, capital tracking, and capital distributions. 

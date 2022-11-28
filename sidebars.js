@@ -34,7 +34,7 @@ const sidebars = {
       label: 'Tokenomics',
       collapsible: true,
       collapsed: false,
-      items: ['genesis_allocations', 'vesting', 'hash_usage', 'hash_inflation', 'governance', ],
+      items: ['genesis_allocations', 'hash_usage', 'hash_inflation', 'governance'],
     },
     // {
     //   type: 'category',
