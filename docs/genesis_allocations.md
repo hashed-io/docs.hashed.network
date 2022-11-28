@@ -53,15 +53,22 @@ The chart below shows the vesting, or **unlock** schedule for the **Slot Leases*
 
 ![image](vesting-area-chart.png)
 
-The chart above is part of a pre-chain governance proposal to execute a public crowdloan campaign with a reward pool of 6% of the total HASH supply. Crowdloan participants will be rewarded with HASH linearly over the course of the lease. 
+The chart above is part of a pre-chain governance proposal to execute a public crowdloan campaign with a reward pool of 6% of the total HASH supply. Crowdloan participants will be rewarded with HASH linearly over the duration of the lease. 
 
-Over the ~ 2-year lease period, ~ 82 M HASH will be unlocked, or 8.2% of the total supply allocated to Slot Leases. The remaining 2.2% will be allocated to future campaigns. 
+ |Key Metric|Value|
+    |---|---|
+    |Reward Pool|60,000,000 HASH|
+    |Crowdloan Cap|125,000 DOT|
+    |HASH per Staked-DOT ratio|480 HASH|
 
-6% Reward Pool = 60,000,000 HASH
+Reward Pool = 60,000,000 HASH
 
 Crowdloan Cap = 125,000 DOT
 
-HASH/Staked-DOT ratio = 480 HASH
+HASH per Staked-DOT ratio = 480 HASH
+
+
+
 
 
 :::caution
