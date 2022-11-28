@@ -61,14 +61,6 @@ The chart above is part of a pre-chain governance proposal to execute a public c
     |Crowdloan Cap|125,000 DOT|
     |HASH per Staked-DOT ratio|480 HASH|
 
-Reward Pool = 60,000,000 HASH
-
-Crowdloan Cap = 125,000 DOT
-
-HASH per Staked-DOT ratio = 480 HASH
-
-
-
 
 
 :::caution
