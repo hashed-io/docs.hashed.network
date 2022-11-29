@@ -7,11 +7,11 @@ tags:
 ---
 
 <head>
-  <title>Bitcoin Orchestration</title>
+  <title>Hashed Network Bitcoin Orchestration</title>
   <meta charSet="utf-8" />
   <meta property="og:image" content="https://docs.hashed.network/img/taproot-example.png" />
   <meta property="og:description" content="The bitcoin orchestrator generates the scripts and Schnoor addresses based on the configuration and business rules. The following diagram shows how a real-world spending policy would be translated to Tapscript and implemented with Hashed Network bitcoin orchestration." />
-  <meta property="og:title" content="Bitcoin Orchestration" />
+  <meta property="og:title" content="Hashed Network Bitcoin Orchestration" />
   <meta property="og:url" content="https://docs.hashed.network/docs/nbv" />
 </head>
 
