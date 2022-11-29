@@ -27,7 +27,7 @@ const sidebars = {
       label: 'Key Concepts',
       collapsible: true,
       collapsed: false,
-      items: ['fund_administration', 'marketplaces', 'integrations'],
+      items: ['nbv', 'fund_administration', 'marketplaces', 'integrations'],
     },
     {
       type: 'category',
