@@ -15,13 +15,13 @@
 const sidebars = {
 
   docs: [
-    // {
-    //   type: 'category',
-    //   label: 'Getting Started',
-    //   collapsible: true,
-    //   collapsed: false,
-    //   items: ['intro'],
-    // },
+    {
+      type: 'category',
+      label: 'Introduction',
+      collapsible: true,
+      collapsed: false,
+      items: ['intro'],
+    },
     {
       type: 'category',
       label: 'Key Concepts',

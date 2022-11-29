@@ -60,7 +60,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'genesis_allocations',
+            docId: 'intro',
             position: 'left',
             label: 'Docs',
           },
