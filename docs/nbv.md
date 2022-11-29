@@ -33,6 +33,7 @@ With coin control and accounting to properly manage the treasury, the informatio
 - Verifiable/trustless receiving addresses 
 - Coin control for labeling and grouping UTXOs to policies
 - Integration with triple entry accounting systems
+- Proof-of-Reserves reporting
 - Active notifications to prompt approvers for signatures
 
 
