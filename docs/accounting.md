@@ -10,8 +10,8 @@ tags:
 <head>
   <title>Hashed Network Triple Entry Accounting</title>
   <meta charSet="utf-8" />
-  <meta property="og:image" content="https://docs.hashed.network/img/taproot-example.png" />
-  <meta property="og:description" content="The bitcoin orchestrator generates the scripts and Schnoor addresses based on the configuration and business rules. The following diagram shows how a real-world spending policy would be translated to Tapscript and implemented with Hashed Network bitcoin orchestration." />
+  <meta property="og:image" content="https://docs.hashed.network/img/monolith.png" />
+  <meta property="og:description" content="Triple entry accounting protocol generates journal files from Native Bitcoin Vaults and enables vault administrators to run balance sheets and income statements" />
   <meta property="og:title" content="Hashed Network Triple Entry Accounting" />
   <meta property="og:url" content="https://docs.hashed.network/docs/accounting" />
 </head>
