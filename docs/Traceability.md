@@ -15,8 +15,6 @@ tags:
   <meta property="og:url" content="https://docs.hashed.network/docs/accounting" />
 </head>
 
-## Traceability
-
 Traceability is a clear use case of blockchain. With this in mind, Hashed Network has been working with Peru’s Ministry of Agriculture and the Ministry of Production for the last couple of years on a blockchain traceability initiative for their cacao and coffee producers. 
 
 Hashed (previously Digital Scarcity & Mighty Wizards Partnership) have signed LOI with the Ministry of Production of Peru and the National Cooperative Business Association and are currently participating in an RFP.
