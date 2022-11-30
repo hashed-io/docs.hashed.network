@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhashed_network_docs=self.webpackChunkhashed_network_docs||[]).push([[2220],{9945:function(s){s.exports=JSON.parse('{"label":"NBV","permalink":"/docs/tags/nbv","allTagsPath":"/docs/tags","count":1,"items":[{"id":"nbv","title":"Bitcoin Orchestration","description":"Hashed Network Bitcoin Orchestration","permalink":"/docs/nbv"}]}')}}]);
