@@ -7,11 +7,11 @@ tags:
 ---
 
 <head>
-  <title>Traceability in Agriculture</title>
+  <title>Traceability</title>
   <meta charSet="utf-8" />
   <meta property="og:image" content="https://docs.hashed.network/img/monolith.png" />
-  <meta property="og:description" content="Triple entry accounting protocol generates journal files from Native Bitcoin Vaults and enables vault administrators to run balance sheets and income statements" />
-  <meta property="og:title" content="Hashed Network Triple Entry Accounting" />
+  <meta property="og:description" content="Traceability allows producers to document their production and improve price competitiveness with international wholesale buyers" />
+  <meta property="og:title" content="Hashed Network Traceability" />
   <meta property="og:url" content="https://docs.hashed.network/docs/accounting" />
 </head>
 
