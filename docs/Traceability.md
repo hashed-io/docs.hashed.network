@@ -15,7 +15,6 @@ tags:
   <meta property="og:url" content="https://docs.hashed.network/docs/accounting" />
 </head>
 
-## Traceability
 
 Traceability is a natural use case of blockchain technology. Hashed network has been designing solutions for clothing, cannabis, and agriculture traceability. In this document, we’ll take a deep dive into an opportunity with Peru’s Ministry of Agriculture and the Ministry of Production that has been in progress since 2020 with the goal to build a blockchain traceability application for their cacao and coffee producers. 
 
