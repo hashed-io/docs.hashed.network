@@ -70,7 +70,7 @@ commodity 1,000.0000 BTC
 The first line for `commodity` configures the output format of the BTC commodity.
 
 ### Balance Sheet
-Run a balance sheet to see how much total BTC we have. 
+Run a balance sheet to view the total BTC across all vaults. 
 
 > To run the examples, install [hledger](https://hledger.org/install.html). Find more apps, libraries, and GUIs that read the `journal` format at [plaintextaccounting.org](https://plaintextaccounting.org/).
 
@@ -164,7 +164,7 @@ Income Statement 2021-10-01..2021-12-26
 
 ## Protocol Vision
 
-Together with [bitcoin orchestration](nbv.md), the triple entry accounting protocol directly integrates multiple operational planes into the same user context. 
+Together with [bitcoin orchestration](nbv.md), the triple entry accounting protocol integrates multiple operational planes into the same user context. 
 
 - Execution layer - transfer-of-value occurs directly on the bitcoin blockchain; scripting and orchestration of signatures via Substrate
 - Governance layer - owners and administrators can control which roles or members within an organization or group should have authority
