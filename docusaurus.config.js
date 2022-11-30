@@ -37,9 +37,14 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
         },
         blog: {
+          blogTitle: 'Hashed News',
+          blogDescription: 'News and Updates from the Hashed Network community',
           showReadingTime: true,
           editUrl:
             'https://github.com/hashed-io/docs.hashed.network',
+          postsPerPage: 'ALL',
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: 'Articles'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
