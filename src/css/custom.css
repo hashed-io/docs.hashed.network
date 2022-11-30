@@ -5,6 +5,22 @@
  */
 
 @font-face {
+  font-family: 'Barlow';
+  src: url('../../static/fonts/barlow/Barlow-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('../../static/fonts/barlow/Barlow-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('../../static/fonts/barlow/Barlow-Bold.ttf');
+  font-weight: bold;
+}
+@font-face {
   font-family: 'AvantGarde';
   src: url('../../static/fonts/AvantGarde\ LT\ Book\ Regular.ttf');
 }
@@ -15,11 +31,15 @@
   font-weight: bold;
 }
 
-p, a, h1, h2, h3, h4, h5, li, i, table {
+p, a, li, i, table {
+  font-family: 'Barlow';
+}
+
+h1, h2, h3, h4, h5 {
   font-family: 'AvantGarde';
 }
 
-.table td, table th {
+table td, table th {
   font-weight: bold !important;
 }
 
@@ -69,6 +89,7 @@ p, a, h1, h2, h3, h4, h5, li, i, table {
 }
 
 .menu__link--active {
+  font-family: 'Barlow';
   background: linear-gradient(106deg,#32E4B6 0%,#086EB1 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -84,6 +105,7 @@ p, a, h1, h2, h3, h4, h5, li, i, table {
 }
 
 .menu__list-item-collapsible .menu__link:hover, .menu__list-item-collapsible .menu__link--active {
+  font-family: 'Barlow';
   background: linear-gradient(106deg,#32E4B6 0%,#086EB1 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
