@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhashed_network_docs=self.webpackChunkhashed_network_docs||[]).push([[3060],{8429:function(e){e.exports=JSON.parse('{"label":"Peru","permalink":"/docs/tags/peru","allTagsPath":"/docs/tags","count":1,"items":[{"id":"Traceability","title":"Traceability","description":"Traceability","permalink":"/docs/Traceability"}]}')}}]);
