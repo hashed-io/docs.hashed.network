@@ -1,5 +1,5 @@
 ---
-title: Traceability
+title: Cacao Traceability in Peru
 sidebar_position: 6
 tags:
   - Traceability
@@ -7,12 +7,12 @@ tags:
 ---
 
 <head>
-  <title>Traceability</title>
+  <title>Cacao Traceability in Peru</title>
   <meta charSet="utf-8" />
-  <meta property="og:image" content="https://docs.hashed.network/img/monolith.png" />
+  <meta property="og:image" content="https://user-images.githubusercontent.com/7217054/204923232-0eb1c975-9011-4657-ae4a-d58116693476.png" />
   <meta property="og:description" content="Traceability allows producers to document their production and improve price competitiveness with international wholesale buyers" />
-  <meta property="og:title" content="Hashed Network Traceability" />
-  <meta property="og:url" content="https://docs.hashed.network/docs/accounting" />
+  <meta property="og:title" content="Hashed Network - Cacao Traceability in Peru" />
+  <meta property="og:url" content="https://docs.hashed.network/docs/traceability" />
 </head>
 
 
