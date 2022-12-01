@@ -16,7 +16,7 @@ tags:
 </head>
 
 
-Traceability is a natural use case of blockchain technology. Hashed network has been designing solutions for clothing, cannabis, and agriculture traceability. In this document, we’ll take a deep dive into an opportunity with Peru’s Ministry of Agriculture and the Ministry of Production that has been in progress since 2020 with the goal to build a blockchain traceability application for their cacao and coffee producers. 
+Supply chain traceability is a natural use case of blockchain technology. Hashed Network has been designing solutions for clothing, cannabis, and agriculture traceability. In this document, we’ll take a deep dive into an opportunity with Peru’s Ministry of Agriculture and the Ministry of Production that has been in progress since 2020 with the goal to build a blockchain traceability application for their cacao and coffee producers. 
 
 Hashed (previously Digital Scarcity & Mighty Wizards Partnership) have signed LOI with the Ministry of Production of Peru and the National Cooperative Business Association and are currently participating in an RFP.
 
