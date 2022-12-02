@@ -2,7 +2,16 @@
 title: Developer SDK 
 ---
 
-Hashed Network is open-source and permissionless. The composable functionality is easy for developers to use to quickly build applications. 
+<head>
+  <title>Developer SDK</title>
+  <meta charSet="utf-8" />
+  <meta property="og:image" content="https://docs.hashed.network/img/monolith.png" />  <meta property="og:description" content="" />
+  <meta property="og:title" content="W3F Grant M2 Approved" />
+  <meta property="og:url" content="https://docs.hashed.network/docs/sdk" />
+</head>
+
+
+Hashed Network is open-source and permissionless. The composable functionality allows developers to quickly build applications.
 
 ## SDK Features
 

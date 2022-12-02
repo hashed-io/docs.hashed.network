@@ -21,3 +21,9 @@ abigail:
   title: Freelance Writer at NOSLO Productions
   url: https://www.linkedin.com/in/abigail-olson-5216541b7/
   image_url: https://media-exp1.licdn.com/dms/image/C5603AQGFrujn1tN2gg/profile-displayphoto-shrink_800_800/0/1600201649507?e=1675296000&v=beta&t=M-Ezrno1JH6lOINY0YySVWRcvzqXksNB56tOTsZ7Hjc
+
+network:
+  name: Hashed Network
+  # title: 
+  url: https://hashed.network
+  image_url: https://avatars.githubusercontent.com/u/89164993?s=400&u=3fd0ac91c6e38a50a9fe55067093ba4ec8e891d0&v=4
