@@ -81,6 +81,21 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[W3F Grant M2 Approved]]></title>
+        <id>w3f-nbv-m2</id>
+        <link href="https://docs.hashed.network/blog/w3f-nbv-m2"/>
+        <updated>2022-10-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[W3F Grant M2 Approved]]></summary>
+        <content type="html"><![CDATA[<p>The second milestone of the Web3 Foundation grant for Native Bitcoin Vaults has been approved.</p>]]></content>
+        <author>
+            <name>Hashed Network</name>
+            <uri>https://hashed.network</uri>
+        </author>
+        <category label="NBV" term="NBV"/>
+        <category label="W3F" term="W3F"/>
+        <category label="bitcoin" term="bitcoin"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Treasury Proposal Approved]]></title>
         <id>dot-treasury-pallets</id>
         <link href="https://docs.hashed.network/blog/dot-treasury-pallets"/>
@@ -103,11 +118,11 @@
         <id>w3f-nbv-m1</id>
         <link href="https://docs.hashed.network/blog/w3f-nbv-m1"/>
         <updated>2022-06-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The first milestone of the Web3 Foundation grant for Native Bitcoin Vaults has been approved.]]></summary>
+        <summary type="html"><![CDATA[W3F Grant M1 Approved]]></summary>
         <content type="html"><![CDATA[<p>The first milestone of the Web3 Foundation grant for Native Bitcoin Vaults has been approved.</p>]]></content>
         <author>
-            <name>Max Gravitt</name>
-            <uri>https://github.com/3yekn</uri>
+            <name>Hashed Network</name>
+            <uri>https://hashed.network</uri>
         </author>
         <category label="partners" term="partners"/>
         <category label="W3F" term="W3F"/>
