@@ -224,7 +224,7 @@ Next, before we begin generating reports, verify that the file loads without any
 
 It should return quietly, without outputting anything (bean-check only writes errors when there are some, otherwise on success it writes nothing).
 
-![Image1](images/image1.png)
+![Image1](images/Beancount/image1.png)
 
 **Generating Reports**
 
@@ -232,7 +232,7 @@ Let’s generate a report of the final balances of all accounts:
 
     bean-report docs/journals/hashed-vaults-python.journal balances
 
-![Image2](images/image2.png)
+![Image2](images/Beancount/image2.png)
 
 
 As you can see, the bean-report script has subcommands for the various reports it generates. To list the available reports, use --help-reports:
@@ -245,7 +245,7 @@ To list the options available for a particular report, use --help on it:
 
     bean-report docs/journals/hashed-vaults-python.journal balances --help
 
-![Image3](images/image3.png)
+![Image3](images/Beancount/image3.png)
 
 
 **Generating Balances**
@@ -254,7 +254,7 @@ Good, so we know how to generate a report of balances for all accounts. This is 
 
     bean-report docs/journals/hashed-vaults-python.journal balances -e BitcoinVaults
 
-![Image9](images/image9.png)
+![Image9](images/Beancount/image9.png)
 
 
 **Formatting Tools**
@@ -263,7 +263,7 @@ Sometimes it’s nice to render a hierarchical list of accounts as a tree. You c
 
     bean-report docs/journals/hashed-vaults-python.journal balances | treeify
 
-![Image10](images/image10.png)
+![Image10](images/Beancount/image10.png)
 
 
 This tool will work on any column of data that looks like a column of account names (you can also configure it work with filenames as well, or other patterns).
@@ -274,21 +274,21 @@ Let us generate a balance sheet:
 
     bean-report docs/journals/hashed-vaults-python.journal balsheet
 
-![Image4](images/image4.png)
+![Image4](images/Beancount/image4.png)
 
 
 Unfortunately, the only output format supported for it at this point is HTML. Also, filtering balance sheet entries from the command-line is not supported. Generate this to a file and open a browser to it:
 
     bean-report docs/journals/hashed-vaults-python.journal balsheet > balsheet.html
 
-![Image5](images/image5.png)
+![Image5](images/Beancount/image5.png)
 
 
 You can to the same for income statements:
 
     bean-report docs/journals/hashed-vaults-python.journal income > income.html
 
-![Image6](images/image6.png)
+![Image6](images/Beancount/image6.png)
 
 
 **Journals**
@@ -297,14 +297,14 @@ You can also generate journals (in Ledger parlance, these are “registers”). 
 
     bean-report docs/journals/hashed-vaults-python.journal journal -a Assets:BitcoinVaults:Cold
 
-![Image7](images/image7.png)
+![Image7](images/Beancount/image7.png)
 
 
 To render a column of running balances, add the --balance option:
 
     bean-report docs/journals/hashed-vaults-python.journal journal -a Assets:BitcoinVaults:Cold --balance
 
-![Image8](images/image8.png)
+![Image8](images/Beancount/image8.png)
 
 
 **Holdings**
@@ -313,7 +313,7 @@ There are a variety of ways to obtain aggregations for the total list of holding
 
     bean-report docs/journals/hashed-vaults-python.journal holdings
 
-![Image11](images/image11.png)
+![Image11](images/Beancount/image11.png)
 
 
 **Other Reports**
@@ -324,7 +324,7 @@ Listing all accounts:
 
     bean-report docs/journals/hashed-vaults-python.journal accounts
 
-![Image12](images/image12.png)
+![Image12](images/Beancount/image12.png)
 
 
 **Viewing Reports through the Web Interface**
@@ -335,7 +335,7 @@ The original way to access reports in Beancount is via its web interface that se
 
 Then navigate with a web browser to http://localhost:8080. From there, you can click on any number of filtered views and access some of the reports previously demonstrated. For example, click on a year view; that will provide balance sheets and income statements and various other reports for this subset of transactions.
 
-![Image13](images/image13.png)
+![Image13](images/Beancount/image13.png)
 
 
 ## Protocol Vision
