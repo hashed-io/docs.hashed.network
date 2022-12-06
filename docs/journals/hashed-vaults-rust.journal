@@ -1,0 +1,127 @@
+2021-10-10 Received from Alice for Invoice 23    
+    Assets:Bitcoin Vaults:Cold           BTC 1.5 
+    Income:Consulting
+
+2021-10-11 Sent to Bob - Deposit                   
+    Assets:Bitcoin Vaults:Hot     BTC -0.10954338  
+    Expenses:Marketing
+
+2021-10-13 Sent to Bob - Project Kickoff                 
+    Assets:Bitcoin Vaults:Hot           BTC -2.94966474  
+    Expenses:Marketing
+
+2021-10-14 Sent to Charlie to pay Invoice 992               
+    Assets:Bitcoin Vaults:Hot           BTC -0.13835373     
+    Expenses:Development
+
+2021-10-26 Sent to bc1quf70t40su8y6dprzgeu8reu3696jsg0990s7l0
+    Assets:Bitcoin Vaults:Cold          BTC -3.14024904  
+    Expenses:Consulting
+
+2021-10-01 Received as block rewards claim
+    Assets:Bitcoin Vaults:Cold          BTC 2.14765549  
+    Income:Block Rewards
+
+2021-10-03 Received as commission payment
+    Assets:Bitcoin Vaults:Hot            BTC 1.55553432
+    Income:Consulting
+
+2021-10-06 Sent to bc1qdjcuvjpj2e7d0s47lmcej5yhyr72fmqjm7xe4w
+    Assets:Bitcoin Vaults:Cold           BTC 2.00259900
+    Income:Staking Rewards 
+
+2021-11-10 Received as payment
+    Assets:Bitcoin Vaults:Hot           BTC 1.23072856
+    Income:Consulting
+
+2021-11-11 Received to bc1qjymg5ggxetpcu9sl2ugdmvkple86n2cqfanhde
+    Assets:Bitcoin Vaults:Hot           BTC -0.21054338  
+    Expenses:Marketing
+
+2021-11-13 Sent to bc1qjymg5ggxetpcu9sl2ugdmvkple86n2cqfanhde
+    Assets:Bitcoin Vaults:Hot           BTC -1.11966474  
+    Expenses:Marketing
+
+2021-11-14 Sent to 19Ne2oXRWtWJcKPu8dbbBwDqJqjCJUqpPQ
+    Assets:Bitcoin Vaults:Hot           BTC -1.88835373  
+    Expenses:Development
+
+2021-11-26 Sent to bc1quf70t40su8y6dprzgeu8reu3696jsg0990s7l0
+    Assets:Bitcoin Vaults:Cold          BTC -3.99024904  
+    Expenses:Consulting
+
+2021-11-01 Received as block rewards claim
+    Assets:Bitcoin Vaults:Hot          BTC 0.90476549  
+    Income:Block Rewards
+
+2021-11-03 Received as commission payment
+    Assets:Bitcoin Vaults:Hot            BTC 1.21353432
+    Income:Consulting
+
+2021-11-06 Sent to bc1qdjcuvjpj2e7d0s47lmcej5yhyr72fmqjm7xe4w
+    Assets:Bitcoin Vaults:Warm           BTC 1.10259900
+    Income:Staking Rewards 
+
+2021-11-10 Received as payment
+    Assets:Bitcoin Vaults:Cold           BTC 4.19072856
+    Income:Consulting
+
+2021-11-11 Received to bc1qjymg5ggxetpcu9sl2ugdmvkple86n2cqfanhde
+    Assets:Bitcoin Vaults:Hot           BTC -0.15054338  
+    Expenses:Marketing
+
+2021-11-13 Sent to bc1qjymg5ggxetpcu9sl2ugdmvkple86n2cqfanhde
+    Assets:Bitcoin Vaults:Hot           BTC -0.94966474  
+    Expenses:Marketing
+
+2021-11-14 Sent to 19Ne2oXRWtWJcKPu8dbbBwDqJqjCJUqpPQ
+    Assets:Bitcoin Vaults:Hot           BTC -1.13835373  
+    Expenses:Development
+
+2021-11-26 Sent to bc1quf70t40su8y6dprzgeu8reu3696jsg0990s7l0
+    Assets:Bitcoin Vaults:Cold          BTC -2.14024904  
+    Expenses:Consulting
+
+2021-12-01 Received as block rewards claim
+    Assets:Bitcoin Vaults:Warm          BTC 1.14765549  
+    Income:Block Rewards
+
+2021-12-03 Received as commission payment
+    Assets:Bitcoin Vaults:Hot            BTC 3.16353432
+    Income:Consulting
+
+2021-12-06 Sent to bc1qdjcuvjpj2e7d0s47lmcej5yhyr72fmqjm7xe4w
+    Assets:Bitcoin Vaults:Warm           BTC 1.10259900
+    Income:Staking Rewards 
+
+2021-12-10 Received as payment
+    Assets:Bitcoin Vaults:Cold           BTC 4.19072856
+    Income:Consulting
+
+2021-12-11 Received to bc1qjymg5ggxetpcu9sl2ugdmvkple86n2cqfanhde
+    Assets:Bitcoin Vaults:Hot           BTC -0.15054338  
+    Expenses:Marketing
+
+2021-12-13 Sent to bc1qjymg5ggxetpcu9sl2ugdmvkple86n2cqfanhde
+    Assets:Bitcoin Vaults:Hot           BTC -0.94966474  
+    Expenses:Marketing
+
+2021-12-14 Sent to 19Ne2oXRWtWJcKPu8dbbBwDqJqjCJUqpPQ
+    Assets:Bitcoin Vaults:Hot           BTC -1.13835373  
+    Expenses:Development
+
+2021-12-26 Sent to bc1quf70t40su8y6dprzgeu8reu3696jsg0990s7l0
+    Assets:Bitcoin Vaults:Cold          BTC -2.14024904  
+    Expenses:Consulting
+
+2021-12-01 Received as block rewards claim
+    Assets:Bitcoin Vaults:Warm          BTC 1.14765549  
+    Income:Block Rewards
+
+2021-12-03 Received as commission payment
+    Assets:Bitcoin Vaults:Hot            BTC 3.16353432
+    Income:Consulting
+
+2021-12-06 Sent to bc1qdjcuvjpj2e7d0s47lmcej5yhyr72fmqjm7xe4w
+    Assets:Bitcoin Vaults:Warm           BTC 1.10259900
+    Income:Staking Rewards 
