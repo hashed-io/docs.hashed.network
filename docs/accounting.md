@@ -202,7 +202,7 @@ You need to take in consideration the following changes:
 - After the date, you need to add the `*` symbol
 - Every transaction description should be in the format `"description"`
 - You need to initialize the account with the `open` keyword
-- Account names should be in the format `Assets:BitcoinVaults:Hot`, withouth spaces
+- Account names should be in the format `Assets:BitcoinVaults:Hot`, without spaces
 - Beancount will ignore the `;` comments, so you don't need to remove them
 - Accounts needs to be balanced:
 ```bash
