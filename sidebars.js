@@ -33,7 +33,7 @@ const sidebars = {
           label: 'On-chain Accounting',
           items: ['accounting/index', 'accounting/beancount', 'accounting/monescript'],
         },
-        'marketplaces'
+        'marketplaces', 'traceability', 'integrations'
       ],
     },
     {
