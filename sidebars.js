@@ -27,7 +27,14 @@ const sidebars = {
       label: 'Key Concepts',
       collapsible: true,
       collapsed: false,
-      items: ['nbv', 'fund_administration', 'accounting', 'marketplaces', 'integrations', 'traceability', 'sdk'],
+      items: ['nbv', 'fund_administration', 
+        {
+          type: 'category',
+          label: 'On-chain Accounting',
+          items: ['accounting/index', 'accounting/beancount', 'accounting/monescript'],
+        },
+        'marketplaces'
+      ],
     },
     {
       type: 'category',
@@ -42,12 +49,12 @@ const sidebars = {
     //   collapsible: true,
     //   collapsed: false,
     //   items: [
-    //     'intro',
-    //     // {
-    //     //   type: 'category',
-    //     //   label: 'Docs',
-    //     //   items: ['purpose', 'marketplaces', 'tokenomics', 'irl_assets'],
-    //     // },
+    //     'accounting',
+    //     {
+    //       type: 'category',
+    //       label: 'On-chain Accounting',
+    //       items: ['beancount', 'monescript'],
+    //     },
     //   ],
     // },
   ],
