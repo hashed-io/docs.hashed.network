@@ -37,7 +37,7 @@ The bitcoin orchestrator generates the scripts and Schnoor addresses based on th
 ![image](taproot-example.png)
 
 ## Coin Control
-Coin control allows users to organize, combine, label, and sweep UTXOs. Businesses map transactions to general ledger income or expense accounts for proper bookkeeping. Users can export these ledgers as text files to be used in [hledger](https://www.hledger.org) and other [plain text accounting](https://plaintextaccounting.org/) tools. See [Triple Entry Accounting](accounting.md) for more.
+Coin control allows users to organize, combine, label, and sweep UTXOs. Businesses map transactions to general ledger income or expense accounts for proper bookkeeping. Users can export these ledgers as text files to be used in [hledger](https://www.hledger.org) and other [plain text accounting](https://plaintextaccounting.org/) tools. See [On-chain Accounting](accounting/index.md) for more.
 
 ## Proof of Reserves
 With coin control and accounting to properly manage the treasury, the information is well-organized for "proof-of-reserves". Treasurers can sign a single transaction that is combined with a report, that prove that the treasurer has access to the listed UTXOs.
