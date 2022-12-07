@@ -443,15 +443,6 @@ Expenses
 ![image17](images/MoneScript/tableExpenses.png)
 Incomes
 ![image18](images/MoneScript/tableIncome.png)
-## Protocol Vision
-
-Together with [bitcoin orchestration](nbv.md), the triple entry accounting protocol integrates multiple operational planes into the same user context. 
-
-- Execution layer - transfer-of-value occurs directly on the bitcoin blockchain; scripting and orchestration of signatures via Substrate
-- Governance layer - owners and administrators can control which roles or members within an organization or group should have authority
-- Accounting layer - users and accountants can construct and share ledgers end-to-end encrypted with audit trail
-
-Businesses adopting the protocol will maintain secure direct-custody, eliminate friction, reduce costs, and improve return on assets.
 
 ---
 ### **Ledger in Go**
@@ -628,3 +619,13 @@ Income:StakingRewards                                                      -2.20
 --------------------------------------------------------------------------------
                                                                             0.00
 ```
+
+## Protocol Vision
+
+Together with [bitcoin orchestration](nbv.md), the triple entry accounting protocol integrates multiple operational planes into the same user context. 
+
+- Execution layer - transfer-of-value occurs directly on the bitcoin blockchain; scripting and orchestration of signatures via Substrate
+- Governance layer - owners and administrators can control which roles or members within an organization or group should have authority
+- Accounting layer - users and accountants can construct and share ledgers end-to-end encrypted with audit trail
+
+Businesses adopting the protocol will maintain secure direct-custody, eliminate friction, reduce costs, and improve return on assets.
