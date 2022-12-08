@@ -31,7 +31,7 @@ const sidebars = {
         {
           type: 'category',
           label: 'On-chain Accounting',
-          items: ['accounting/index', 'accounting/beancount', 'accounting/monescript'],
+          items: ['accounting/index', 'accounting/beancount', 'accounting/monescript', 'accounting/ledger_in_go'],
         },
         'marketplaces', 'traceability', 'integrations', 'sdk'
       ],
