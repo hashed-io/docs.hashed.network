@@ -57,6 +57,6 @@ If, while someone is filing their taxes online, they are presented with an offer
 Adding an additional $280 billion to the TAM in 2023. Long used at the state level, the IRA's clear embrace signals legislators want to incentivize outcomes, such as green energy technology, using transferable tax credits. 
 
 ## What does this mean for Hashed Network? 
-The [Marketplace] protocol applies a burn of HASH based on the amount of the tax credit sold. If Afloat captures just 1% of the new $280 billion market, it would burn $5.6 million of HASH in the process.
+The [Marketplace](docs/marketplaces.md) protocol applies a burn of HASH based on the amount of the tax credit sold. If Afloat captures just 1% of the new $280 billion market, it would burn $5.6 million of HASH in the process.
 
 For more details, see the [HASH Burn Calculator](https://docs.google.com/spreadsheets/d/1R3OIVNQGBGw9Amq1Y6zXhHQMWR3fwQYrEdKZdOFY6sI/edit?usp=sharing).
