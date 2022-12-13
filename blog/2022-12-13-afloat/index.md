@@ -38,7 +38,7 @@ The list of credits include:
 - Advanced manufacturing production
 - Clean fuel production credit
 
-The Congressional Budget Office estimates the new tax credits will cost [$260 billion](https://taxfoundation.org/inflation-reduction-act-green-energy-tax-credits/) over the next ten years. Afloat's total addessable market will increase by $260 billion on the first of January. 
+The Congressional Budget Office estimates the new tax credits will cost [$260 billion](https://taxfoundation.org/inflation-reduction-act-green-energy-tax-credits/) over the next ten years. 
 
 [Pomerleau](https://www.niskanencenter.org/refundability-and-transferability-clean-energy-tax-credits-inflation-reduction-act/) compares the legislation to the: 
 
