@@ -11,7 +11,8 @@ tags:
 
 Inflation is set to 0% at genesis. 
 
-Implementation falls into Phase 3 of the [Governance Plan](governance.md)
+Implementation falls into Phase 3 of the [Governance Plan](governance.md). The goal of inflation is generally to support operators; in this case, collators and other tech operators. This is not a short-term concern, so inflation delayed helps all token holders.
+
 
 :::caution
 
