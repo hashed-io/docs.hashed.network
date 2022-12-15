@@ -8,7 +8,7 @@ authors: [max]
 <head>
   <title>Federal Tax Credits Become Transferable in 2023</title>
   <meta charSet="utf-8" />
-  <meta property="og:image" content="https://docs.hashed.network/img/monolith.png" />
+  <meta property="og:image" content="https://docs.hashed.network/img/networked-desk-cartoon.png" />
   <meta property="og:description" content="Federal Tax Credits Become Transferable in 2023" />
   <meta property="og:title" content="Federal Tax Credits Become Transferable in 2023" />
   <meta property="og:url" content="https://docs.hashed.network/blog/federal-credits-transferable" />
@@ -49,14 +49,14 @@ Earlier this year, the IRS published [Request for Comments on Elective Payment o
 Afloat has already been handling state tax credits for years, and they [shared feedback](https://stayafloat.io/#/media) to the IRS.
 
 ### Buyer of Last Resort
-There should always be a buyer of last resort for every tax credit because there is an enormous supply of buyers. Everyone has to pay taxes. 
+There should always be a buyer of last resort for every tax credit because there is an enormous supply of buyers.
 
 If, while someone is filing their taxes online, they are presented with an offer that allows them pay less in tax by clicking a button, they will click every time. The absence of such a button is evidence of the high transactional and redemptive friction in the transferance of credits, making it a perfect candidate for benefiting from blockchain technology.
 
-### Growing TAM
+### Growing Total Addressible Market
 Adding an additional $280 billion to the TAM in 2023. Long used at the state level, the IRA's clear embrace signals legislators want to incentivize outcomes, such as green energy technology, using transferable tax credits. 
 
 ## What does this mean for Hashed Network? 
-The [Marketplace](https://docs.hashed.network/docs/marketplaces) protocol applies a burn of HASH based on the amount of the tax credit sold. If Afloat captures just 1% of the new $280 billion market, it would burn $5.6 million of HASH in the process.
+The [Marketplace](https://docs.hashed.network/docs/marketplaces) protocol applies a burn of HASH based on the amount of the tax credit sold. If Afloat captures just 1% of this incremental $280 billion market, it would burn $5.6 million of HASH in the process.
 
 For the detailed mechanics and to plan your business, see the [HASH Burn Calculator](https://docs.google.com/spreadsheets/d/1R3OIVNQGBGw9Amq1Y6zXhHQMWR3fwQYrEdKZdOFY6sI/edit?usp=sharing).
