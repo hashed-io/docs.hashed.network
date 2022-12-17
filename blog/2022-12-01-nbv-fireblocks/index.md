@@ -9,8 +9,8 @@ authors: [max, augusto]
 <head>
   <title>Hashed Network vs Fireblocks Comparison</title>
   <meta charSet="utf-8" />
-  <meta property="og:image" content="https://docs.hashed.network/img/nbv.png" />
-  <meta property="og:description" content="F" />
+  <meta property="og:image" content="https://docs.hashed.network/img/monolith.png" />
+  <meta property="og:description" content="Detailed head-to-head comparison between Hashed Network and Fireblocks" />
   <meta property="og:title" content="Hashed Network vs Fireblocks Comparison" />
   <meta property="og:url" content="https://docs.hashed.network/blog/nbv-comparison" />
 </head>

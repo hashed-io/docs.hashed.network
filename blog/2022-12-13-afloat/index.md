@@ -9,6 +9,7 @@ authors: [max]
   <title>Federal Tax Credits Become Transferable in 2023</title>
   <meta charSet="utf-8" />
   <meta property="og:image" content="https://docs.hashed.network/img/networked-desk-cartoon.png" />
+  <meta property="twitter:description" content="The Afloat Tax Credit Marketplace, powered by Hashed Network, poised to capture big share of the incremental $280 billion TAM in January" />
   <meta property="og:description" content="The Afloat Tax Credit Marketplace, powered by Hashed Network, poised to capture big share of the incremental $280 billion TAM in January" />
   <meta property="og:title" content="Federal Tax Credits Become Transferable in 2023" />
   <meta property="og:url" content="https://docs.hashed.network/blog/federal-credits-transferable" />
