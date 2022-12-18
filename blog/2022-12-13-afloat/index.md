@@ -45,14 +45,14 @@ The Congressional Budget Office estimates the new tax credits will cost [$260 bi
 
 > Safe Harbor Leasing provision in the 1981 Economic Recovery Tax Act, which significantly accelerated depreciation deductions for new investments. In response to the concern that companies without taxable income couldn’t fully benefit from the larger depreciation deductions, the tax reform allowed companies to sell their depreciation deductions and investment tax credits to other companies for cash. The provision was designed to encourage economic growth and provide investment incentives for companies with no tax liability. 
 
-Earlier this year, the IRS published [Request for Comments on Elective Payment of Applicable Credits and Transfer of Certain Credits](https://www.irs.gov/pub/irs-drop/n-22-50.pdf). The Department of Treasury and IRS sought direct feedback on "[w]hat other processes could be implemented by the IRS to prevent duplication, fraud, improper payments, or excessive payments under § 6417?" 
+Earlier this year, the IRS published [Request for Comments on Elective Payment of Applicable Credits and Transfer of Certain Credits](https://www.irs.gov/pub/irs-drop/n-22-50.pdf). The Department of Treasury and IRS sought direct feedback on "what other processes could be implemented by the IRS to prevent duplication, fraud, improper payments, or excessive payments under § 6417?" 
 
-Afloat has already been handling state tax credits for years, and they [shared feedback](https://stayafloat.io/#/media) to the IRS.
+Afloat, already handling state tax credits for years, shared feedback as requested in a [letter to IRS Associate Chief Counsel](./2022-11-04-Afloat-IRS-Comment-Letter.pdf).
 
 ### Buyer of Last Resort
 There should always be a buyer of last resort for every tax credit because there is an enormous supply of buyers.
 
-If, while someone is filing their taxes online, they are presented with an offer that allows them pay less in tax by clicking a button, they will click every time. The absence of such a button is evidence of the high transactional and redemptive friction in the transferance of credits, making it a perfect candidate for benefiting from blockchain technology.
+If, while someone is filing their taxes online, they are presented with an offer that allows them pay less in tax by clicking a button, they will click every time. The absence of such a button is evidence of the high transactional and redemptive friction in the transferance of credits. Afloat eliminates that friction, and scales its participants and marketplace with [Moderated Marketplaces](/docs/marketplaces.md) on Hashed Network.
 
 ### Growing Total Addressible Market
 Adding an additional $280 billion to the TAM in 2023. Long used at the state level, the IRA's clear embrace signals legislators want to incentivize outcomes, such as green energy technology, using transferable tax credits. 
