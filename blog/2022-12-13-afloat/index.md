@@ -52,7 +52,7 @@ Afloat, already handling state tax credits for years, shared feedback as request
 ### Buyer of Last Resort
 There should always be a buyer of last resort for every tax credit because there is an enormous supply of buyers.
 
-If, while someone is filing their taxes online, they are presented with an offer that allows them pay less in tax by clicking a button, they will click every time. The absence of such a button is evidence of the high transactional and redemptive friction in the transferance of credits. Afloat eliminates that friction, and scales its participants and marketplace with [Moderated Marketplaces](/docs/marketplaces.md) on Hashed Network.
+If, while someone is filing their taxes online, they are presented with an offer that allows them pay less in tax by clicking a button, they will click every time. The absence of such a button is evidence of the high transactional and redemptive friction in the transferance of credits. Afloat eliminates that friction, and scales its participants and marketplace with [Moderated Marketplaces](https://docs.hashed.network/docs/marketplaces) on Hashed Network.
 
 ### Growing Total Addressible Market
 Adding an additional $280 billion to the TAM in 2023. Long used at the state level, the IRA's clear embrace signals legislators want to incentivize outcomes, such as green energy technology, using transferable tax credits. 
