@@ -1,5 +1,5 @@
 ---
-title: Polkadot Treasury Proposal 
+title: DRAFT Polkadot Treasury Proposal 
 tags:
   - Events
 slug: investors-event-miami
@@ -36,8 +36,9 @@ Check out his showreel or some of these sample videos of similar events:
 
 The booth will look like this one. (It is just a coincidence that logo looks like the Polkadot logo)
 
-
 ![image](booth.jpg)
+
+Link to the [Event Sponsor Guide](Miami-Expo-Sponsor-Guide.pdf)
 
 Budget: 
 - Videography and Editing/Post-production: $25,000
