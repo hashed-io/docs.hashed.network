@@ -43,6 +43,10 @@ This policy expresses the rule that either the CEO can sign, both the CFO and CO
 
 ![image](elephant-example.png)
 
+The spending policy is used to generate the receiving address. The UTXO is created at that address when it receives bitcoin. Then, when it is time to spend the UTXO, the orchestration builds 3 verifiable payloads, routes them to be signed, and then merges and broadcasts the resulting transaction. 
+
+With Schnorr key aggregation, no information about the spending policy is leaked. However, it is important for users to safely and securely manage the policy data to be able to reconstruct the signature requirements. 
+
 ## Coin Control
 Coin control allows users to organize, combine, label, and sweep UTXOs. Businesses map transactions to general ledger income or expense accounts for proper bookkeeping. Users can export these ledgers as text files to be used in [hledger](https://www.hledger.org) and other [plain text accounting](https://plaintextaccounting.org/) tools. See [On-chain Accounting](accounting/index.md) for more.
 
