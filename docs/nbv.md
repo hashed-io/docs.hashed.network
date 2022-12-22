@@ -26,15 +26,22 @@ BIP 174 supports a limited number of signers per wallet, and lacks the scalabili
 ## Taproot Upgrade
 Taproot upgrade functionality (340/341) preserves privacy because the outputs are always Schnoor signatures that make complex functionality and single addresses publicly indistinguishable. 
 
-Pay-to-Taproot (P2TR) supports key and script aggregation in a hierarchy known as a Merkelized Alternative Script Tree (MAST). This **tree** enables functionality for conditionally allowing spend of a UTXO. MASTs preserve privacy by only requiring a proof from the branch of the tree that satisfies the root condition.
+Pay-to-Taproot (P2TR) supports key and script aggregation in a hierarchy. This **tree** enables functionality for conditionally allowing spend of a UTXO. The Schnorr signature preserves privacy by only requiring a proof from the branch of the tree that satisfies the root condition.
 
-As described by [Moeller](https://beincrypto.com/learn/taproot/), "[Tapscript] provides user choice, meaning some transactions can be anonymous while others can stay public, depending on the use case. Tapscript validates these newer forms of transaction validity."
+As described by [Moeller](https://beincrypto.com/learn/taproot/), it "provides user choice, meaning some transactions can be anonymous while others can stay public, depending on the use case. Tapscript validates these newer forms of transaction validity."
 
-The ability to nest tapscript conditions recursively with MASTs enables a variety of expressive "smart contract" functionality to build into bitcoin spends. For example, require extended approvals for larger amounts, wait periods, and additional tiers of hardware signers.
+The ability to nest tapscript conditions enables a variety of expressive "smart contract" style functionality to build into bitcoin spends. For example, require extended approvals for larger amounts, wait periods, and additional tiers of hardware signers.
 
 The bitcoin orchestrator generates the scripts and Schnoor addresses based on the configuration and business rules. The following diagram shows how a real-world spending policy would be translated to Tapscript and implemented with Hashed Network bitcoin orchestration. 
 
 ![image](taproot-example.png)
+
+## No-Code Spending Policies
+The BDK provides tools like [Elephant](https://github.com/bitcoindevkit/elephant), which was used to construct the spending policy below. 
+
+This policy expresses the rule that either the CEO can sign, both the CFO and COO, or either of them plus a 480 minute wait.
+
+![image](elephant-example.png)
 
 ## Coin Control
 Coin control allows users to organize, combine, label, and sweep UTXOs. Businesses map transactions to general ledger income or expense accounts for proper bookkeeping. Users can export these ledgers as text files to be used in [hledger](https://www.hledger.org) and other [plain text accounting](https://plaintextaccounting.org/) tools. See [On-chain Accounting](accounting/index.md) for more.
