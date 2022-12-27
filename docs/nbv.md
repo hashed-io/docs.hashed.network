@@ -15,6 +15,19 @@ tags:
   <meta property="og:url" content="https://docs.hashed.network/docs/nbv" />
 </head>
 
+<hr/>
+
+### Preface
+If you are unfamiliar with the Bitcoin Taproot upgrade and its implications, the following podcast is highly recommended.
+
+<iframe src="https://anchor.fm/chaincode/embed/episodes/Pieter-Wuille-and-Tim-Ruffing--Schnorr--MuSig--FROST-and-more---Episode-26-e1sav0l/a-a928f3k" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+
+> <b>Interviewer: </b> So the primary reason to adopt Schnorr is just makes building advanced signing protocols easier?
+
+> <b>Peter Wuille </b> (Bitcoin Core): That is the number one reason why we want this.
+
+<hr/>
+
 Recent innovations in bitcoin, such as [BIP 174](https://en.bitcoin.it/wiki/BIP_0174), and the taproot upgrade, [BIP 340](https://en.bitcoin.it/wiki/BIP_0340), [BIP 341](https://en.bitcoin.it/wiki/BIP_0341), and [BIP 342](https://en.bitcoin.it/wiki/BIP_0342), enables developers to de-couple the signing experience from the orchestration of transactions. For example, BIP 174 introduced the now widely supported partially signed bitcoin transaction (PSBT) format for multisignature wallets. 
 
 Bitcoin orchestration is used to generate receiving addresses, verify ownership of treasuries, and proof of reserves reporting. The intermediate payloads (not private keys) may be encrypted or shared with a group. Compatible bitcoin signers include BlueWallet, in-browser via Hashed key vault, and more coming soon.
