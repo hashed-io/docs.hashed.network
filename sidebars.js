@@ -33,6 +33,11 @@ const sidebars = {
           label: 'On-chain Accounting',
           items: ['accounting/index', 'accounting/beancount', 'accounting/monescript', 'accounting/ledger_in_go'],
         },
+        {
+          type: 'category',
+          label: 'Fund Administration',
+          items: ['fund_administration', 'fund-admin/polkadot-account', 'fund-admin/how-to-login', 'fund-admin/polkadot-key-concepts'],
+        },
         'marketplaces', 'traceability', 'integrations', 'sdk'
       ],
     },
