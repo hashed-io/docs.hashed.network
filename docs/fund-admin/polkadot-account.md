@@ -297,7 +297,7 @@ and click on the `Next` button.
 ---
 In order to import your account into the Polkadot extension, you need to have your backup `JSON` file.
 
-1.   Open the Polkadot extension and click on the `Accounts` option.
+1.   Open the Polkadot extension.
    
 <img alt="image51" src={require('./images/polkadot-account/image4.png').default} width="450px"/>
 
