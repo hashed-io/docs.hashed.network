@@ -1,8 +1,7 @@
 ---
-title: Polkadot Account
+title: Creating Your First Polkadot Account
 sidebar_position: 4
 tags:
-  - marketplace
   - Polkadot
   - account
   - PRXY
@@ -10,18 +9,16 @@ tags:
 ---
 
 <head>
-  <title>Polkadot Account</title>
+  <title>Creating Your First Polkadot Account</title>
   <meta charSet="utf-8" />
   <meta property="og:image" content="https://docs.hashed.network/img/fund-admin.png" />
   <meta property="og:description" content="On-chain, triple entry accounting protocol generates journal files from Native Bitcoin Vaults and enables vault administrators to run balance sheets and income statements" />
-  <meta property="og:title" content="Polkadot Account" />
+  <meta property="og:title" content="Creating Your First Polkadot Account" />
   <meta property="og:url" content="https://docs.hashed.network/docs/fund-admin/polkadot-account" />
 </head>
 
-# **Creating Your First Polkadot Account**
-- [**Creating Your First Polkadot Account**](#creating-your-first-polkadot-account)
-  - [**Polkadot browser extension**](#polkadot-browser-extension)
-  - [**Polkadot user interface (UI)**](#polkadot-user-interface-ui)
+- [**Polkadot browser extension**](#polkadot-browser-extension)
+- [**Polkadot user interface (UI)**](#polkadot-user-interface-ui)
 
 ---
 
@@ -92,11 +89,12 @@ In order to continue with this tutorial, you must have the Polkadot{.js} browser
 The first one is the `Account name` section. This name is only for you to identify your account inside your Polkadot extension. Default name is `<unknown>`. but you can change it in a later step.
 ![Image9](./images/polkadot-account/image9.png)
 
-Below the `<Unknown>` text, you can see a large string of characters. This is your account address (Public Key)(TODO:REFERENCE). 
+Below the `<Unknown>` text, you can see a large string of characters. This is your account address [Public Key](./polkadot-key-concepts.md#public-and-private-keys))
+. You can copy it by clicking on the `Copy to clipboard` button.
 
 **Note**: You don't need to copy it now, because as you can remember, if you click outside the Polkadot extension, it will close.
 
-Next, you can see the `Mnemonic phrase` section. This is the most important part of the process. You will need to save this mnemonic phrase in a safe place(TODO:REFERENCE). If you lose it, you will lose access to your account.
+Next, you can see the `Mnemonic phrase` section. This is the most important part of the process. You will need to save this [mnemonic phrase](./polkadot-key-concepts.md#mnemonic-and-address-generation) in a safe place. If you lose it, you will lose access to your account.
 
 ![Image10](./images/polkadot-account/image10.png)
 
@@ -117,7 +115,7 @@ After that, you can click on the `Next Step` button.
 
 ![Image14](./images/polkadot-account/image14.png)
 
-7. Next, you will see a screen with your account information:
+1. Next, you will see a screen with your account information:
 
 ![Image15](./images/polkadot-account/image15.png)
 
@@ -273,6 +271,6 @@ Again, the first section is the `Account name` section.
 
 ![Image49](./images/polkadot-account/image48.png)
 
-**Note**: As you can see, your new account is already funded with `0.0000 DOT`. (TODO:Reference TOKENS/DOT)
+**Note**: As you can see, your new account is already funded with `0.0000 DOT`.
 
 **Note**: Ensure that you have saved your mnemonic phrase and the `JSON` file in a safe place before buying DOTs. If you lose your mnemonic phrase or the `JSON` file, you will lose access to your account and your DOTs.

@@ -36,7 +36,7 @@ const sidebars = {
         {
           type: 'category',
           label: 'Fund Administration',
-          items: ['fund_administration', 'fund-admin/polkadot-account'],
+          items: ['fund_administration', 'fund-admin/polkadot-account', 'fund-admin/polkadot-key-concepts'],
         },
         'marketplaces', 'traceability', 'integrations', 'sdk'
       ],
