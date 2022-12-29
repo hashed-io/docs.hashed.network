@@ -29,7 +29,7 @@ connect your Polkadot account to the Polkadot extension are explained in this [g
 
 **Note**: The first time you enter to the `Fund Administration` website, you may be asked to `Authorize` the Polkadot extension. You can do it by clicking on the `Yes, allow this application access` button.
 
-![Image4](./images/how-to-login/im4.png)
+<img alt="image4" src={require('./images/how-to-login/im4.png').default} width="480px"/>
 
 Your Polkadot extension should look like this:
 

@@ -122,3 +122,13 @@ While both methods of storage have benefits and drawbacks, the option you choose
     If you plan to trade day-to-day, then accessibility will be of paramount importance, meaning that a hot wallet is probably an appropriate choice.
     However, if you are considering storing a huge amount of crypto assets and value security over convenience, then it might be wise to invest in a cold wallet.
 
+22.  We're done! You have successfully created your first Polkadot account. 
+
+![Image49](./images/polkadot-account/image48.png)
+
+**Note**: As you can see, your new account is already funded with `0.0000 DOT`.
+
+**Note**: Ensure that you have saved your mnemonic phrase and the `JSON` file in a safe place before buying DOTs. If you lose your mnemonic phrase or the `JSON` file, you will lose access to your account and your DOTs.
+
+23. 
+TODO: STEPS HOW-TO IMPORT YOUR JSON FILE INTO THE POLKADOT EXTENSION

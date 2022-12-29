@@ -20,6 +20,7 @@ tags:
 - [Introduction](#introduction)
 - [**Polkadot browser extension**](#polkadot-browser-extension)
 - [**Polkadot user interface (UI)**](#polkadot-user-interface-ui)
+- [How to import your account into the Polkadot extension](#how-to-import-your-account-into-the-polkadot-extension)
 
 ---
 ## Introduction
@@ -267,9 +268,9 @@ Again, the first section is the `Account name` section.
 
 ![Image48](./images/polkadot-account/image47.png)
 
-**Note**: If you forget your password, you can still access your account by using your mnemonic phrase or restoring your account using the `JSON` file. That's why it's important to save both your mnemonic phrase and the `JSON` file in a safe place.
+**Note**: If you forget your password, you can still access your account by using your mnemonic phrase or restoring your account using the `JSON` file. That's why it's important to save both your mnemonic phrase and the `JSON` file in a safe place
 
-22.  We're done! You have successfully created your first Polkadot account. 
+22. We're done! You have successfully created your first Polkadot account. 
 
 ![Image49](./images/polkadot-account/image48.png)
 
@@ -277,4 +278,60 @@ Again, the first section is the `Account name` section.
 
 **Note**: Ensure that you have saved your mnemonic phrase and the `JSON` file in a safe place before buying DOTs. If you lose your mnemonic phrase or the `JSON` file, you will lose access to your account and your DOTs.
 
-TODO: STEPS HOW-TO IMPORT YOUR JSON FILE INTO THE POLKADOT EXTENSION
+---
+
+## How to import your account into the Polkadot extension
+
+---
+In order to import your account into the Polkadot extension, you need to have your backup `JSON` file.
+
+1.   Open the Polkadot extension in your browser.
+   
+![Image49](./images/polkadot-account/image4.png)
+
+2.  Click on the `Plus` button located in the top right corner of the Polkadot extension.
+
+![Image50](./images/polkadot-account/image49.png)
+
+3.  A dropdown menu will appear. Select the `Restore account from backup JSON file` option.
+
+![Image51](./images/polkadot-account/image51.png)
+
+**Note**: A new tab will open. Make sure to keep this tab open, while you import your account.
+
+4. New tab will look like this:
+
+![Image52](./images/polkadot-account/image52.png)
+
+5. As the text says, `Click or drag and drop the JSON file here` to import your account. If you click the button, a file explorer will open, navigate to the folder where you saved your `JSON` file and select it.
+
+![Image53](./images/polkadot-account/image53.png)
+
+
+6. Next, you will see the following screen:
+
+![Image54](./images/polkadot-account/image54.png)
+
+7. Insert the password you used to create your account.
+
+![Image55](./images/polkadot-account/image55.png)
+
+8. Click on the `Restore` button.
+
+![Image56](./images/polkadot-account/image58.png)
+
+9. Now your Polkadot account is imported into the Polkadot extension. 
+
+![Image57](./images/polkadot-account/image56.png)
+
+To verify that your account has been imported successfully, click on the Polkadot extension icon (top right corner):
+
+![Image58](./images/polkadot-account/image57.png)
+
+10.  We're done! You have successfully created your first Polkadot account. 
+
+![Image49](./images/polkadot-account/image48.png)
+
+**Note**: As you can see, your new account is already funded with `0.0000 DOT`.
+
+**Note**: Ensure that you have saved your mnemonic phrase and the `JSON` file in a safe place before buying DOTs. If you lose your mnemonic phrase or the `JSON` file, you will lose access to your account and your DOTs.
