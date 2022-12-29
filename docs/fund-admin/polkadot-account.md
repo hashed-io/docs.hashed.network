@@ -17,13 +17,15 @@ tags:
   <meta property="og:url" content="https://docs.hashed.network/docs/fund-admin/polkadot-account" />
 </head>
 
+- [Introduction](#introduction)
 - [**Polkadot browser extension**](#polkadot-browser-extension)
 - [**Polkadot user interface (UI)**](#polkadot-user-interface-ui)
 
 ---
+## Introduction
 
-The following tutorial covers "How to create a Polkadot account". let's start our journey!
-Throughout this page you will see some words highlighted in [blue](#creating-your-first-polkadot-account), if you click on those words, you may be taken to an external website or directed to a section of this document.
+The following tutorial covers `How to create a Polkadot account`. Let's start our journey!
+Throughout this page you will see some words highlighted in [blue](#introduction), if you click on those words, you may be taken to an external website or directed to a section of this document.
 
 Before you begin, you must have one of the following browsers installed:
 
@@ -274,3 +276,5 @@ Again, the first section is the `Account name` section.
 **Note**: As you can see, your new account is already funded with `0.0000 DOT`.
 
 **Note**: Ensure that you have saved your mnemonic phrase and the `JSON` file in a safe place before buying DOTs. If you lose your mnemonic phrase or the `JSON` file, you will lose access to your account and your DOTs.
+
+TODO: STEPS HOW-TO IMPORT YOUR JSON FILE INTO THE POLKADOT EXTENSION
