@@ -66,6 +66,8 @@ Please follow our guide [here](./polkadot-account.md#introduction) to connect yo
 
 ![Image7](./images/how-to-login/im7.png)
 
+**Note**: If you accidentally close the Polkadot extension popup or if you don't see it at all, you can click again on the Polkadot extension icon on your browser and the Polkadot extension will display the closed popup.
+
 6. Introduce your password (the one you used to create your Polkadot account):
 
 ![Image8](./images/how-to-login/im8.png)
