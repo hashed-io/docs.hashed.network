@@ -27,7 +27,7 @@ const sidebars = {
       label: 'Key Concepts',
       collapsible: true,
       collapsed: false,
-      items: ['nbv', 'fund_administration', 
+      items: ['nbv', 
         {
           type: 'category',
           label: 'On-chain Accounting',
