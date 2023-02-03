@@ -1,6 +1,7 @@
 ---
 title: Component Overview
 sidebar_position: 1
+slug: /
 ---
 
 
