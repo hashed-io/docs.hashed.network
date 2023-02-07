@@ -62,6 +62,7 @@ const config = {
         logo: {
           alt: 'Hashed Network',
           src: 'img/hashed-black.png',
+          srcDark: 'img/hashed-white.svg',
         },
         items: [
           {
