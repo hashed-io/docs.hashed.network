@@ -35,6 +35,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/',
         },
         blog: {
           blogTitle: 'Hashed News',
@@ -61,6 +62,7 @@ const config = {
         logo: {
           alt: 'Hashed Network',
           src: 'img/hashed-black.png',
+          srcDark: 'img/hashed-white.svg',
         },
         items: [
           {
