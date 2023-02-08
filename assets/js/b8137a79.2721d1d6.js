@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhashed_network_docs=self.webpackChunkhashed_network_docs||[]).push([[7788],{5820:function(e){e.exports=JSON.parse('{"label":"Peru","permalink":"/tags/peru","allTagsPath":"/tags","count":1,"items":[{"id":"traceability","title":"Product Traceability","description":"Hashed Network - Cacao Traceability in Peru","permalink":"/traceability"}]}')}}]);
