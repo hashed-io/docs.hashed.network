@@ -12,7 +12,7 @@ Hashed Systems is a blockchain based platform that allows users to create and ma
 | **Afloat Client API** | This client api is used to provide methods to interact with gatedMarketplace, uniques and fruniques pallets and go through Afloat specific flow. |
 | **Marketplace UI** | This is the UI for the Hashed Network Portal, it allows users to interact with all the components of the system. |
 | **Marketplace pallet** | This pallet allows users to create and manage their own marketplaces. |
-| **Fruniques pallet** | This pallet allows users to create and manage their own fractional assets. It's build on top of Uniques pallet |
+| **Fruniques pallet** | This pallet allows users to create and manage their own fractional assets. It's built on top of Uniques pallet |
 | **Confidential Documents Server** | This server provides the backend services for the Hashed Confidential docs services. |
 | **Confidential Documents API** | This client api is used to provide methods to interact with the Hashed Confidential docs services. |
 | **Faucet Server** | This server provides the backend services for token distribution for new accounts, reducing friction for user onboarding. |
