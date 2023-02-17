@@ -28,17 +28,20 @@ sidebar_position: 1
 
         Enterprise_Boundary(b1, "Hashed Backend") {
 
-          System(ConfidentialDocumentsServer, "Confidential Documents Server", "The services provided by this server are called via hasura actions and as such are exposed through the hasura graphql endpoint.")
-
-          System(ConfidentialDocumentsAPI, "Confidential Documents API", "Enables the usage of the Hashed Confidential docs services by client applications.")
-
-          System(FaucetServer, "Faucet Server", "Provides the backend services for token distribution for new accounts, reducing friction for user onboarding.")
-
           System(AfloatClientAPI, "Afloat Client API", "This client api is used to provide methods to interact with gatedMarketplace, uniques and fruniques pallets and go through Afloat specific flow.")
 
-          System_Boundary(b2, "Hashed Blockchain") {
+          System_Boundary(b2, "Confidential Documents") {
+            System(ConfidentialDocumentsAPI, "Confidential Documents API", "Enables the usage of the Hashed Confidential docs services by client applications.")
+            System(ConfidentialDocumentsServer, "Confidential Documents Server", "The services provided by this server are called via hasura actions and as such are exposed through the hasura graphql endpoint.")
+            System(FaucetServer, "Faucet Server", "Provides the backend services for token distribution for new accounts, reducing friction for user onboarding.")
+
+          }
+
+          System_Boundary(b3, "Hashed Blockchain") {
             System(GatedMarketplace, "Gated Marketplaces", "Allows users to buy and sell tokens on the blockchain")
             System(FruniquesPallet, "Fruniques", "Allows users to create assets on the blockchain")
+            System(RBAC, "Role Based Access Control", "Allows users to manage their roles and permissions in all the pallets")
+            System(FundAdmin, "Fund Admin")
             System(ConfidentialDocuments, "Confidential documents")
             System(NativeBitcoinVaults, "Native Bitcoin Vaults")
           }
@@ -48,12 +51,21 @@ sidebar_position: 1
 
       BiRel(customerA, WebApp, "Uses")
 
-      Rel(WebApp, AfloatClientAPI, "Sends transactions to")
+      BiRel(WebApp, AfloatClientAPI, "Sends transactions to")
+      BiRel(WebApp, ConfidentialDocumentsAPI, "Sends e-mails", "SMTP")
+
       Rel(AfloatClientAPI, GatedMarketplace, "Sends transactions to")
       Rel(AfloatClientAPI, FruniquesPallet, "Sends transactions to")
 
-      Rel(WebApp, ConfidentialDocumentsAPI, "Sends e-mails", "SMTP")
+
       Rel(GatedMarketplace, FruniquesPallet, "<br>Sends transactions to")
+
+      BiRel(GatedMarketplace, RBAC, "Manages roles and permissions")
+      BiRel(FruniquesPallet, RBAC, "Manages roles and permissions")
+      BiRel(FundAdmin, RBAC, "Manages roles and permissions")
+
+      BiRel(ConfidentialDocumentsAPI, ConfidentialDocumentsServer, "")
+      BiRel(ConfidentialDocumentsAPI, FaucetServer, "")
 
       UpdateRelStyle(WebApp, SystemE, $textColor="blue", $lineColor="blue", $offsetY="-10")
       UpdateRelStyle(WebApp, ConfidentialDocumentsAPI, $textColor="blue", $lineColor="blue", $offsetY="-40", $offsetX="-50")
@@ -92,4 +104,22 @@ cargo run --bin hashed --release -- --dev
 Go to the [Polkadot webside](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer)
 
 - Go to the `Developer` tab and click on `Sudo`
-- 
+- Select `gatedMarketplace` pallet and search for the extrinsic `initialSetup()`, then click on `Submit Transaction`
+- Select `fruniques` pallet and search for the extrinsic `initialSetup()`, then click on `Submit Transaction`
+
+This steps are required in order to setup the pallets and create the required roles and permissions.
+
+### Faucet Server
+
+You would need to run the faucet locally, this is the repo for it: https://github.com/hashed-io/faucet-server, there is a README file explaining how to run it but you should be able to run it with the following command:
+
+```bash
+npm run start:all image
+```
+
+Before running the faucet you should have the node running locally, as the faucet connects to it, this is configured in the .env.all file.
+You would also need to updated the front-end env file, to point to the local faucet:
+
+```bash
+FAUCET_SERVER_URL = 'http://localhost:3000'
+```
