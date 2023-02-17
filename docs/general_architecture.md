@@ -87,3 +87,9 @@ git checkout develop
 ```bash
 cargo run --bin hashed --release -- --dev
 ```
+#### Setup the pallets
+
+Go to the [Polkadot webside](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer)
+
+- Go to the `Developer` tab and click on `Sudo`
+- 
