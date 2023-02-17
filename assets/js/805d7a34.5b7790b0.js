@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhashed_network_docs=self.webpackChunkhashed_network_docs||[]).push([[7002],{71103:a=>{a.exports=JSON.parse('{"label":"Afloat","permalink":"/blog/tags/afloat","allTagsPath":"/blog/tags","count":1}')}}]);

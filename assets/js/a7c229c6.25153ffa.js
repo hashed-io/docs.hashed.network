@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhashed_network_docs=self.webpackChunkhashed_network_docs||[]).push([[3172],{30603:s=>{s.exports=JSON.parse('{"label":"NBV","permalink":"/blog/tags/nbv","allTagsPath":"/blog/tags","count":2}')}}]);
