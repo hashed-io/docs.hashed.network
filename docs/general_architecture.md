@@ -9,7 +9,7 @@ sidebar_position: 1
     C4Context
       title Hashed Systems
       Enterprise_Boundary(b0, "Hashed Systems") {
-        Person(customerA, "Banking Customer A", "A customer of the bank, with personal bank accounts.")
+        Person(customerA, "End user", "A blockchain user")
 
         System(WebApp, "Web App", "Allows users to interact with all the components of the system")
 
