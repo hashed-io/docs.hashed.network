@@ -3,9 +3,23 @@ title: General Architecture
 sidebar_position: 1
 ---
 
+Hashed Systems is a blockchain based platform that allows users to create and manage their own marketplaces, and to create and manage their own assets. It is built on top of Substrate, and uses the Afloat framework.
+
+## **Components**
+
+| Component | Description |
+| ----- | ----------- |
+| **Afloat Client API** | This client api is used to provide methods to interact with gatedMarketplace, uniques and fruniques pallets and go through Afloat specific flow. |
+| **Marketplace UI** | This is the UI for the Hashed Network Portal, it allows users to interact with all the components of the system. |
+| **Marketplace pallet** | This pallet allows users to create and manage their own marketplaces. |
+| **Fruniques pallet** | This pallet allows users to create and manage their own fractional assets. It's build on top of Uniques pallet |
+| **Confidential Documents Server** | This server provides the backend services for the Hashed Confidential docs services. |
+| **Confidential Documents API** | This client api is used to provide methods to interact with the Hashed Confidential docs services. |
+| **Faucet Server** | This server provides the backend services for token distribution for new accounts, reducing friction for user onboarding. |
 
 **Repositories**
 (all MIT licensed)
+
 | Component | Repo | Language |
 | ----- | ----------- | ------- |
 | Afloat Client API | https://github.com/hashed-io/afloat-client-api | Javascript |
@@ -52,7 +66,7 @@ sidebar_position: 1
       BiRel(customerA, WebApp, "Uses")
 
       BiRel(WebApp, AfloatClientAPI, "Sends transactions to")
-      BiRel(WebApp, ConfidentialDocumentsAPI, "Sends e-mails", "SMTP")
+      BiRel(WebApp, ConfidentialDocumentsAPI, "Allow user to log with Google account,"," and upload / share confidential documents")
 
       Rel(AfloatClientAPI, GatedMarketplace, "Sends transactions to")
       Rel(AfloatClientAPI, FruniquesPallet, "Sends transactions to")
@@ -101,7 +115,7 @@ cargo run --bin hashed --release -- --dev
 ```
 #### Setup the pallets
 
-Go to the [Polkadot webside](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer)
+Go to the [Polkadot webside](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer), make sure you are connected to the local node.
 
 - Go to the `Developer` tab and click on `Sudo`
 - Select `gatedMarketplace` pallet and search for the extrinsic `initialSetup()`, then click on `Submit Transaction`
