@@ -137,3 +137,27 @@ You would also need to updated the front-end env file, to point to the local fau
 ```bash
 FAUCET_SERVER_URL = 'http://localhost:3000'
 ```
+
+### Starting local Web App server
+To run the web app locally you must go through the following steps:
+- Use nodeJs >= 16.X
+- Clone Web app [repository](https://github.com/hashed-io/hashed-network-portal-ui)
+- Install quasar cli
+  ```
+  yarn global add @quasar/cli
+  ```
+- Install dependecies
+  ```
+  cd hashed-network-portal-ui
+  yarn install
+  ```
+- Set env variables
+  ```
+  cp .env.example .env
+  ```
+  (By security reason we can not share on this documentation the secret keys)
+- Start server
+  ```
+  quasar dev
+  ```
+  The application will be open automatically on your browser.
