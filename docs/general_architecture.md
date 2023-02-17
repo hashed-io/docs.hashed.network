@@ -3,9 +3,7 @@ title: General Architecture
 sidebar_position: 1
 ---
 
-Provide a general architecture guide that describes the different repos and how they interact with each other.
-
-Provide a doc that describes how to deploy and configure a full system locally.
+## General architecture Diagram
 
 ```mermaid
     C4Context
@@ -13,35 +11,42 @@ Provide a doc that describes how to deploy and configure a full system locally.
       Enterprise_Boundary(b0, "Hashed Systems") {
         Person(customerA, "Banking Customer A", "A customer of the bank, with personal bank accounts.")
 
-        System(WebAA, "Web App", "Allows users to interact with all the components of the system")
+        System(WebApp, "Web App", "Allows users to interact with all the components of the system")
 
         Enterprise_Boundary(b1, "Hashed Backend") {
 
-          System(SystemE, "Afloat", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+          System(ConfidentialDocumentsServer, "Confidential Documents Server", "The services provided by this server are called via hasura actions and as such are exposed through the hasura graphql endpoint.")
+
+          System(ConfidentialDocumentsAPI, "Confidential Documents API", "Enables the usage of the Hashed Confidential docs services by client applications.")
+
+          System(FaucetServer, "Faucet Server", "Provides the backend services for token distribution for new accounts, reducing friction for user onboarding.")
+
+          System(AfloatClientAPI, "Afloat Client API", "This client api is used to provide methods to interact with gatedMarketplace, uniques and fruniques pallets and go through Afloat specific flow.")
 
           System_Boundary(b2, "Hashed Blockchain") {
-            System(SystemA, "Gated Marketplaces")
-            System(SystemB, "Fruniques")
-            System(SystemF, "Confidential documents")
-            System(SystemG, "Native Bitcoin Vaults")
+            System(GatedMarketplace, "Gated Marketplaces", "Allows users to buy and sell tokens on the blockchain")
+            System(FruniquesPallet, "Fruniques", "Allows users to create assets on the blockchain")
+            System(ConfidentialDocuments, "Confidential documents")
+            System(NativeBitcoinVaults, "Native Bitcoin Vaults")
           }
 
-          System(SystemC, "E-mail system", "The internal Microsoft Exchange e-mail system.")
         }
       }
 
-      BiRel(customerA, WebAA, "Uses")
-      BiRel(WebAA, SystemE, "Uses")
-      Rel(WebAA, SystemC, "Sends e-mails", "SMTP")
-      Rel(SystemC, customerA, "Sends e-mails to")
-      Rel(SystemA, SystemB, "<br>Sends transactions to")
+      BiRel(customerA, WebApp, "Uses")
 
-      UpdateElementStyle(customerA, $fontColor="red", $bgColor="grey", $borderColor="red")
-      UpdateRelStyle(customerA, WebAA, $textColor="blue", $lineColor="blue", $offsetX="5")
-      UpdateRelStyle(WebAA, SystemE, $textColor="blue", $lineColor="blue", $offsetY="-10")
-      UpdateRelStyle(WebAA, SystemC, $textColor="blue", $lineColor="blue", $offsetY="-40", $offsetX="-50")
-      UpdateRelStyle(SystemC, customerA, $textColor="red", $lineColor="red", $offsetX="-50", $offsetY="20")
+      Rel(WebApp, AfloatClientAPI, "Sends transactions to")
+      Rel(AfloatClientAPI, GatedMarketplace, "Sends transactions to")
+      Rel(AfloatClientAPI, FruniquesPallet, "Sends transactions to")
+
+      Rel(WebApp, ConfidentialDocumentsAPI, "Sends e-mails", "SMTP")
+      Rel(GatedMarketplace, FruniquesPallet, "<br>Sends transactions to")
+
+      UpdateRelStyle(WebApp, SystemE, $textColor="blue", $lineColor="blue", $offsetY="-10")
+      UpdateRelStyle(WebApp, ConfidentialDocumentsAPI, $textColor="blue", $lineColor="blue", $offsetY="-40", $offsetX="-50")
 
       UpdateLayoutConfig($c4ShapeInRow="2", $c4BoundaryInRow="1")
 
 ```
+
+## Provide a doc that describes how to deploy and configure a full system locally.
