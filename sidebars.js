@@ -20,7 +20,7 @@ const sidebars = {
       label: 'Introduction',
       collapsible: true,
       collapsed: false,
-      items: ['intro'],
+      items: ['intro', 'general_architecture'],
     },
     {
       type: 'category',
