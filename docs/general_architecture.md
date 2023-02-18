@@ -48,7 +48,7 @@ Hashed Systems is a blockchain based platform that allows users to create and ma
             System(ConfidentialDocumentsAPI, "Confidential Documents API", "Enables the usage of the Hashed Confidential docs services by client applications.")
             System(ConfidentialDocumentsServer, "Confidential Documents Server", "The services provided by this server are called via hasura actions and as such are exposed through the hasura graphql endpoint.")
             System(FaucetServer, "Faucet Server", "Provides the backend services for token distribution for new accounts, reducing friction for user onboarding.")
-
+            System(IPFS, "IPFS", "IPFS is a decentralized, peer-to-peer file system that allows for efficient and permanent storage and sharing of files on the internet.")
           }
 
           System_Boundary(b3, "Hashed Blockchain") {
@@ -67,6 +67,8 @@ Hashed Systems is a blockchain based platform that allows users to create and ma
 
       BiRel(WebApp, AfloatClientAPI, "Sends transactions to")
       BiRel(WebApp, ConfidentialDocumentsAPI, "Allow user to log with Google account,"," and upload / share confidential documents")
+      BiRel(ConfidentialDocumentsAPI, ConfidentialDocuments, "Interact with")
+      BiRel(ConfidentialDocumentsAPI, IPFS, "Save encrypted files on")
 
       Rel(AfloatClientAPI, GatedMarketplace, "Sends transactions to")
       Rel(AfloatClientAPI, FruniquesPallet, "Sends transactions to")
