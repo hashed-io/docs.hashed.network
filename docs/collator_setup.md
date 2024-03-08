@@ -6,7 +6,5 @@ The hashed parachain collator is based on the polkadot v1.3.0 parachain template
 
 + The hashed parachain binary can be downloaded from the [release](https://github.com/hashed-io/hashed-substrate-parachain/releases/tag/hashed-node-v3).
 + The hashed parachain raw chain spec can be downloaded [here](https://github.com/hashed-io/hashed-substrate-parachain/blob/hashed-node-v3/resources/hashed-collator-raw-spec.json).
-+ Bootnodes:
-  + /dns/c1.p2p.hashed.live/tcp/40333/ws/p2p/12D3KooWHb2r8WKzHyV8FYWZxNkaSzzMJkoa64NoBWFbpnHXQQuT 
++ Bootnode:
   + /dns/c2.p2p.hashed.network/tcp/443/wss/p2p/12D3KooWBdoiZsvYnYnWEdefordNhwSaueiiFmuKnZewomkps4sz
-  + /dns/c3.p2p.hashed.live/tcp/40333/ws/p2p/12D3KooWRaqvqDg1h8dPmgjp1fWyzAyCkBLkstktjJBVgvAzZXKL 
