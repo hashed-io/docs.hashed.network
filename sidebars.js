@@ -48,6 +48,13 @@ const sidebars = {
       collapsed: false,
       items: ['genesis_allocations', 'hash_usage', 'hash_inflation', 'governance'],
     },
+    {
+      type: 'category',
+      label: 'Collators',
+      collapsible: true,
+      collapsed: false,
+      items: ['collator_program_cohort_1', 'collator_setup'],
+    },
     // {
     //   type: 'category',
     //   label: 'Guides',
