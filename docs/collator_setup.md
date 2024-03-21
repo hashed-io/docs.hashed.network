@@ -8,5 +8,6 @@ The hashed parachain collator is based on the polkadot v1.3.0 parachain template
 + The hashed parachain raw chain spec can be downloaded [here](https://raw.githubusercontent.com/hashed-io/hashed-substrate-parachain/hashed-node-v3/resources/hashed-collator-raw-spec.json).
 + Bootnode:
   + /dns/c2.p2p.hashed.network/tcp/443/wss/p2p/12D3KooWBdoiZsvYnYnWEdefordNhwSaueiiFmuKnZewomkps4sz
++ You can purchase HASH tokens [here](https://enter.hashed.club/).
 
 NOTE: Remember to register your aura public key with the session pallet using the setKeys extrinsic.
